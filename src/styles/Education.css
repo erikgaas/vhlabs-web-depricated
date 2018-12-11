@@ -1,0 +1,23 @@
+body {
+    color: maroon;
+}
+
+h2 {
+    margin-bottom: 20px;
+    background-color: #FFF1CF;
+    background-size: cover;
+}
+
+.section-container {
+    margin-bottom: 50px
+}
+
+.container {
+    /* overflow: hidden; */
+    margin-left: 100px
+}
+
+a {
+    color: maroon;
+    text-decoration: underline
+}

@@ -1,0 +1,49 @@
+/* General CSS */
+.NavBar {
+	background-color: gold;
+}
+
+.dropdown-menu {
+	background-color: gold
+}
+
+a:hover {
+	background-color: #ffdf32
+}
+
+
+/* Specific CSS */
+#navbarDropdownMenuLink{
+	color: #7a0019
+}
+
+.dropdown-menu > .dropdown-item {
+	color: maroon;
+	background-color: gold
+}
+
+.dropdown-menu > .dropdown-item:hover {
+	background-color: #ffdf32
+}
+
+
+/* VH Lab and Dept of Surgery heading style */
+
+.navbar-brand {
+	text-decoration: none;
+	margin-right: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.vhColor {
+	color: maroon
+}
+
+
+
+
+
+#navbarNavDropdown {
+	text-align: right;
+	padding-left: 90px
+}

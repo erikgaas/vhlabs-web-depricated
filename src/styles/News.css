@@ -1,0 +1,16 @@
+.newsContainer {
+    margin-bottom: 20px;
+    /* border-bottom: solid 1.4px black */
+}
+
+.pageTitle {
+    margin-bottom: 60px
+}
+
+.pageTitle > h1 {
+    color:#46000E
+}
+
+h3,p {
+    color: #46000E
+}

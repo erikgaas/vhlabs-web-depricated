@@ -1,0 +1,28 @@
+.HomeElList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.ExtraHome {
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.ExtraHome > * {
+	padding: 5px;
+}
+
+.CarouselContainer {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Home {
+	align-content: center;
+}

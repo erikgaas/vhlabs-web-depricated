@@ -1,0 +1,500 @@
+{
+    "people": [
+        {
+            "name": "Paul Iaizzo",
+            "credentials": "PhD, FHRS",
+            "position": "Professor",
+            "email": "iaizz001@umn.edu",
+            "phone": "612-624-7912",
+            "designations": [
+                "Faculty"
+            ],
+            "img_name": "bio-paul.jpg"
+        },
+        {
+            "name": "Mike Zeoffery Bateman",
+            "credentials": "PhD",
+            "position": "Assistant Professor",
+            "email": "batem034@umn.edu",
+            "phone": "612-626-2518",
+            "designations": [
+                "Faculty"
+            ],
+            "img_name": "bio-mk.jpg"
+        },
+        {
+            "name": "Tinen Iles",
+            "credentials": "PhD",
+            "position": "Assistant Professor",
+            "email": "thealy@umn.edu",
+            "phone": "612-625-3641",
+            "designations": [
+                "Faculty"
+            ],
+            "img_name": "bio-tinen.jpg"
+        },
+        {
+            "name": "Alex Deakyne",
+            "credentials": "",
+            "position": "Research Professional 1",
+            "email": "deaky007@umn.edu",
+            "phone": "612-301-1668",
+            "designations": [
+                "Staff",
+                "Masters"
+            ],
+            "img_name": "bio-alex.jpg"
+        },
+        {
+            "name": "Monica Mahre",
+            "credentials": "",
+            "position": "Research Professional 2",
+            "email": "mahre002@umn.edu",
+            "phone": "612-624-3959",
+            "designations": [
+                "Staff"
+            ],
+            "img_name": "bio-monica.jpg"
+        },
+        {
+            "name": "Cory Swingen",
+            "credentials": "PhD",
+            "position": "Short-term Casual",
+            "email": "swing001@umn.edu",
+            "phone": "",
+            "designations": [
+                "Adjunct"
+            ],
+            "img_name": "bio-cs.jpg"
+        },
+        {
+            "name": "Weston Upchurch",
+            "credentials": "",
+            "position": "Research Professional 3",
+            "email": "wupchruc@umn.edu",
+            "phone": "612-626-3956",
+            "designations": [
+                "Staff"
+            ],
+            "img_name": "bio-WUpchurch.jpg"
+        },
+        {
+            "name": "Rita Anderson",
+            "credentials": "",
+            "position": "Lab Coordinator",
+            "email": "and00000@umn.edu",
+            "phone": "612-624-3959",
+            "designations": [
+                "Staff"
+            ],
+            "img_name": "bio-RAnderson.jpg"
+        },
+        {
+            "name": "Gary Williams",
+            "credentials": "",
+            "position": "Applications Programmer",
+            "email": "willi067@umn.edu",
+            "phone": "612-624-3161",
+            "designations": [
+                "Staff"
+            ],
+            "img_name": "bio-gary.jpg"
+        },
+        {
+            "name": "Michael Eggen",
+            "credentials": "PhD",
+            "position": "Applications Programmer",
+            "email": "willi067@umn.edu",
+            "phone": "612-624-3161",
+            "designations": [
+                "Adjunct"
+            ],
+            "img_name": "bio-gary.jpg"
+        },
+        {
+            "name": "Alexander Hill",
+            "credentials": "PhD",
+            "position": "Director of Research and Business Development at Medtronic",
+            "email": "alex.hill@medtronic.com",
+            "phone": "763-514-9776",
+            "designations": [
+                "Adjunct"
+            ],
+            "img_name": "bio-ah.jpg"
+        },
+        {
+            "name": "Timothy Laske",
+            "credentials": "PhD",
+            "position": "Vice President of Research and Business Development - Medtronic AF Solutions",
+            "email": "tim.g.laske@medtronic.com",
+            "phone": "763-514-9782",
+            "designations": [
+                "Adjunct"
+            ],
+            "img_name": "bio-tl.jpg"
+        },
+        {
+            "name": "Nicholas Skadsberg",
+            "credentials": "PhD",
+            "position": "Global Upstream Marketing Director - AF Solutions",
+            "email": "nick.skadsberg@medtronic.com",
+            "phone": "763-526-0163",
+            "designations": [
+                "Adjunct"
+            ],
+            "img_name": "bio-ns.jpg"
+        },
+        {
+            "name": "Erik Gaasedelen",
+            "credentials": "",
+            "position": "Bioinformatics and Computational Biology",
+            "email": "gaas0012@umn.edu",
+            "phone": "612-624-8742",
+            "designations": [
+                "Doctoral"
+            ],
+            "img_name": "bio-EG.jpg"
+        },
+        {
+            "name": "Mikayle Holm",
+            "credentials": "",
+            "position": "Biomedical Engineering",
+            "email": "holmx427@umn.edu",
+            "phone": "612-624-8742",
+            "designations": [
+                "Doctoral"
+            ],
+            "img_name": "bio-MH.jpg"
+        },
+        {
+            "name": "Lars Mattison",
+            "credentials": "",
+            "position": "Biomedical Engineering",
+            "email": "matti137@umn.edu",
+            "phone": "612-624-8742",
+            "designations": [
+                "Doctoral"
+            ],
+            "img_name": "bio-LM.jpg"
+        },
+        {
+            "name": "Alex Mattson",
+            "credentials": "",
+            "position": "Biomedical Engineering",
+            "email": "matts460@umn.edu",
+            "phone": "612-624-8742",
+            "designations": [
+                "Doctoral"
+            ],
+            "img_name": "bio-AM.jpg"
+        },
+        {
+            "name": "David Ramirez",
+            "credentials": "",
+            "position": "Biomedical Engineering",
+            "email": "ramir356@umn.edu",
+            "phone": "612-624-8742",
+            "designations": [
+                "Doctoral"
+            ],
+            "img_name": "bio-DRamirez.jpg"
+        },
+        {
+            "name": "Emma Schinstock",
+            "credentials": "",
+            "position": "Mechanical Engineering",
+            "email": "schin139@umn.edu",
+            "phone": "612-624-8742",
+            "designations": [
+                "Doctoral"
+            ],
+            "img_name": "bio-ESchinstock.jpg"
+        },
+        {
+            "name": "Megan Schmidt",
+            "credentials": "",
+            "position": "Biomedical Engineering",
+            "email": "schm2696@umn.edu",
+            "phone": "612-624-8742",
+            "designations": [
+                "Doctoral"
+            ],
+            "img_name": "bio-MS.jpg"
+        },
+        {
+            "name": "Jorge Zhingre Sanchez",
+            "credentials": "",
+            "position": "Biomedical Engineering",
+            "email": "zhing001@umn.edu",
+            "phone": "612-624-8742",
+            "designations": [
+                "Doctoral"
+            ],
+            "img_name": "bio-JZ.jpg"
+        },
+        {
+            "name": "Lindsey Arndt",
+            "credentials": "",
+            "position": "Biomedical Engineering",
+            "email": "arndt214@umn.edu",
+            "phone": "",
+            "designations": [
+                "Masters"
+            ],
+            "img_name": "bio-LArndt.jpg"
+        },
+        {
+            "name": "Sarah Hamlin",
+            "credentials": "",
+            "position": "Biomedical Engineering",
+            "email": "hamli037@umn.edu",
+            "phone": "",
+            "designations": [
+                "Masters"
+            ],
+            "img_name": "bio-MS.jpg"
+        },
+        {
+            "name": "Alyssa Jackson",
+            "credentials": "",
+            "position": "Biomedical Engineering",
+            "email": "jacks938@umn.edu",
+            "phone": "",
+            "designations": [
+                "Masters"
+            ],
+            "img_name": "bio-aj.jpg"
+        },
+        {
+            "name": "Lizzie Mattson",
+            "credentials": "",
+            "position": "Biomedical Engineering",
+            "email": "matts538@umn.edu",
+            "phone": "",
+            "designations": [
+                "Masters"
+            ],
+            "img_name": "bio-LMattson.jpg"
+        },
+        {
+            "name": "Ky O'Rourke",
+            "credentials": "",
+            "position": "Biomedical Engineering",
+            "email": "kylee@umn.edu",
+            "phone": "",
+            "designations": [
+                "Masters"
+            ],
+            "img_name": "bio-KORourke.jpg"
+        },
+        {
+            "name": "Kaileigh Rock",
+            "credentials": "",
+            "position": "Biomedical Engineering",
+            "email": "rock0253@umn.edu",
+            "phone": "",
+            "designations": [
+                "Masters"
+            ],
+            "img_name": "bio-KRock.jpg"
+        },
+        {
+            "name": "Tommy Valenzuela III",
+            "credentials": "",
+            "position": "Biomedical Engineering",
+            "email": "valen382@umn.edu",
+            "phone": "",
+            "designations": [
+                "Masters"
+            ],
+            "img_name": "bio-TValenzuela.jpg"
+        },
+        {
+            "name": "Paul Cho",
+            "credentials": "",
+            "position": "Volunteer (Physiology), UROP",
+            "email": "choxx500@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-pc.jpg"
+        },
+        {
+            "name": "Emma Fiala",
+            "credentials": "",
+            "position": "Volunteer (Physiology)",
+            "email": "fiala013@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-EF.jpg"
+        },
+        {
+            "name": "Ally Fuher",
+            "credentials": "",
+            "position": "Temporary/Casual, Volunteer (Biology)",
+            "email": "fuher005@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-af.jpg"
+        },
+        {
+            "name": "Josh Gangl",
+            "credentials": "",
+            "position": "Volunteer (Physiology)",
+            "email": "gangl017@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-jg.jpg"
+        },
+        {
+            "name": "Mahdi Hurreh",
+            "credentials": "",
+            "position": "Volunteer",
+            "email": "hurre009@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-MHurreh.jpg"
+        },
+        {
+            "name": "Chloe Johnson",
+            "credentials": "",
+            "position": "Volunteer (Animal Science/Pre-vet)",
+            "email": "joh11648@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-cj.jpg"
+        },
+        {
+            "name": "Brenna Kelly",
+            "credentials": "",
+            "position": "Volunteer (Post-bac)",
+            "email": "",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-BKelly.jpg"
+        },
+        {
+            "name": "Tarek Khatib",
+            "credentials": "",
+            "position": "Volunteer (Physiology)",
+            "email": "khati005@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-nopic.jpg"
+        },
+        {
+            "name": "Panyiag Lee",
+            "credentials": "",
+            "position": "Volunteer (Psychology)",
+            "email": "leex3583@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-nopic.jpg"
+        },
+        {
+            "name": "Xiaoyin Ling",
+            "credentials": "",
+            "position": "Volunteer (Mechanical Engineering)",
+            "email": "",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-nopic.jpg"
+        },
+        {
+            "name": "Meghan Longen",
+            "credentials": "",
+            "position": "Volunteer (Physiology)",
+            "email": "longe020@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-nopic.jpg"
+        },
+        {
+            "name": "Melanie Menk",
+            "credentials": "",
+            "position": "Volunteer (Biology)",
+            "email": "menkx035@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-ml.jpg"
+        },
+        {
+            "name": "Sydney Newton",
+            "credentials": "",
+            "position": "Volunteer (Biology)",
+            "email": "newto158@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-sn.jpg"
+        },
+        {
+            "name": "Danielle Sorensen",
+            "credentials": "",
+            "position": "Volunteer (Biology)",
+            "email": "soren892@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-DSorensen.jpg"
+        },
+        {
+            "name": "Claire Thomas",
+            "credentials": "",
+            "position": "Volunteer (Biochemistry)",
+            "email": "thom5700@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-CThomas.jpg"
+        },
+        {
+            "name": "Nichole Torgerson",
+            "credentials": "",
+            "position": "Volunteer",
+            "email": "torge194@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-NTorgerson.jpg"
+        },
+        {
+            "name": "Julia Van Luyk",
+            "credentials": "",
+            "position": "Volunteer (BMEn)",
+            "email": "vanlu005@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "bio-jv.jpg"
+        }
+    ]
+}
