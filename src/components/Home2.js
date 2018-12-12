@@ -53,7 +53,7 @@ class Home2 extends Component {
 																<h3>Our Lab</h3>	
 																<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/ourlab3.jpg"} alt="The Atlas" />
 																<div class="card-body">
-																	<p class="card-text">Information here about The Atlas.</p>
+																	<p class="card-text">Information here about The Lab</p>
 																	<a href="/about" class="btn btn-primary">More Information</a>
 																</div>
 															</div>
@@ -86,7 +86,7 @@ class Home2 extends Component {
 														<h3>Clinical</h3>	
 														<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/mhlogo.jpg"} alt="The Atlas" />
 														<div class="card-body">
-															<p class="card-text">Information here about The Atlas.</p>
+															<p class="card-text">Information here about Clinical.</p>
 															<a href="http://www.vhlab.umn.edu/atlas/index.shtml" class="btn btn-primary">More Information</a>
 														</div>
 													</div>
