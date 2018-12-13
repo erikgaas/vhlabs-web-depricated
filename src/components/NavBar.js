@@ -14,17 +14,12 @@ class NavBar extends Component {
 					<div class="collapse navbar-collapse" id="navbarNavDropdown">
 						
 						<ul class="navbar-nav">
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<li class="nav-item">
+								<a class="nav-link" href="/" id="navbarDropdownMenuLink" role="button">
 									Home
         						</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="/research">Research</a>
-									<a class="dropdown-item" href="/education">Outreach & Education</a>
-									<a class="dropdown-item" href="/clinical">Clinical</a>
-									<a class="dropdown-item" href="http://www.vhlab.umn.edu/atlas/index.shtml">The Atlas</a>
-								</div>
 							</li>
+									
 
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -36,37 +31,33 @@ class NavBar extends Component {
 									<a class="dropdown-item" href="/collaborators">Collaborators</a>
 									<a class="dropdown-item" href="/gift">Give a Gift</a>
 									<a class="dropdown-item" href="/affiliations">Affiliations</a>
+									<a class="dropdown-item" href="/contact">Contact</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Research
+        						</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<a class="dropdown-item" href="/research-3d">3D Modeling</a>
+									<a class="dropdown-item" href="/research-cacardiac">Cardiac</a>
+									<a class="dropdown-item" href="/research-pc">Patient Care</a>
+									<a class="dropdown-item" href="/research-bb">Black Bears</a>
+									<a class="dropdown-item" href="/research-md">Medical Devices</a>
+									<a class="dropdown-item" href="/research-sm">Skeletal Muscle</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									News
+        						</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 									<a class="dropdown-item" href="/news">Lab News</a>
-								</div>
-							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Media
-        						</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="/media">Articles</a>
-									<a class="dropdown-item" href="https://www.youtube.com/channel/UCwcaO45GJ_v-WrWXEUKCXKw">Videos</a>
-								</div>
-							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Publications
-        						</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="#">Original Articles</a>
-									<a class="dropdown-item" href="#">Review Articles</a>
-									<a class="dropdown-item" href="#">Books</a>
-									<a class="dropdown-item" href="#">Book Chapters</a>
-									<a class="dropdown-item" href="#">Invited Articles</a>
-									<a class="dropdown-item" href="#">Letters to the Editor</a>
-									<a class="dropdown-item" href="#">Educational Materials</a>
-								</div>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Contact
-        						</a>
-							</li>
+									<a class="dropdown-item" href="/publications">Publications</a>
+									<a class="dropdown-item" href="/media">Media</a>
+									<a class="dropdown-item" href="http://www.vhlab.umn.edu/atlas/index.shtml">The Atlas</a>
+									</div>
+							</li>	
 						</ul>
 					</div>
 				</nav>
