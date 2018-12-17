@@ -47,3 +47,7 @@ a:hover {
 	text-align: right;
 	padding-left: 90px
 }
+
+.navbar-nav {
+	padding-left: 170px
+}

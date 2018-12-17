@@ -19,11 +19,11 @@ class NavBar extends Component {
 									Home
         						</a>
 							</li>
-									
+			
 
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									About
+									People
         						</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 									<a class="dropdown-item" href="/about">Meet the Staff</a>
@@ -31,7 +31,6 @@ class NavBar extends Component {
 									<a class="dropdown-item" href="/collaborators">Collaborators</a>
 									<a class="dropdown-item" href="/gift">Give a Gift</a>
 									<a class="dropdown-item" href="/affiliations">Affiliations</a>
-									<a class="dropdown-item" href="/contact">Contact</a>
 								</div>
 							</li>
 							<li class="nav-item dropdown">
@@ -47,17 +46,31 @@ class NavBar extends Component {
 									<a class="dropdown-item" href="/research-sm">Skeletal Muscle</a>
 								</div>
 							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									News
+							<li class="nav-item">
+								<a class="nav-link" href="/news" id="navbarDropdownMenuLink" role="button">
+									Lab News
         						</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="/news">Lab News</a>
-									<a class="dropdown-item" href="/publications">Publications</a>
-									<a class="dropdown-item" href="/media">Media</a>
-									<a class="dropdown-item" href="http://www.vhlab.umn.edu/atlas/index.shtml">The Atlas</a>
-									</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/publications" id="navbarDropdownMenuLink" role="button">
+									Publications
+        						</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="http://www.vhlab.umn.edu/atlas/index.shtml" id="navbarDropdownMenuLink" role="button">
+									The Atlas
+        						</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/media" id="navbarDropdownMenuLink" role="button">
+									Media
+        						</a>
 							</li>	
+							<li class="nav-item">
+								<a class="nav-link" href="/contact" id="navbarDropdownMenuLink" role="button">
+									Contact
+        						</a>
+							</li>
 						</ul>
 					</div>
 				</nav>
