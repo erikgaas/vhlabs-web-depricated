@@ -9,7 +9,7 @@
             "designations": [
                 "Faculty"
             ],
-            "img_name": "bio-paul.jpg"
+            "img_name": "PaulIaizzo.jpg"
         },
         {
             "name": "Mike Bateman",
@@ -20,7 +20,7 @@
             "designations": [
                 "Faculty"
             ],
-            "img_name": "bio-mk.jpg"
+            "img_name": "MikeBateman.jpg"
         },
         {
             "name": "Tinen Iles",
@@ -31,7 +31,7 @@
             "designations": [
                 "Faculty"
             ],
-            "img_name": "bio-tinen.jpg"
+            "img_name": "TinenIles.jpg"
         },
         {
             "name": "Alex Deakyne",
@@ -43,7 +43,7 @@
                 "Staff",
                 "Masters"
             ],
-            "img_name": "bio-alex.jpg"
+            "img_name": "AlexDeakyne.jpg"
         },
         {
             "name": "Monica Mahre",
@@ -54,7 +54,7 @@
             "designations": [
                 "Staff"
             ],
-            "img_name": "bio-monica.jpg"
+            "img_name": "MonicaMahre.jpg"
         },
         {
             "name": "Cory Swingen",
@@ -65,7 +65,7 @@
             "designations": [
                 "Adjunct"
             ],
-            "img_name": "bio-cs.jpg"
+            "img_name": "CorySwingen.jpg"
         },
         {
             "name": "Weston Upchurch",
@@ -76,7 +76,7 @@
             "designations": [
                 "Staff"
             ],
-            "img_name": "bio-WUpchurch.jpg"
+            "img_name": "WestonUpchurch.jpg"
         },
         {
             "name": "Rita Anderson",
@@ -87,7 +87,7 @@
             "designations": [
                 "Staff"
             ],
-            "img_name": "bio-RAnderson.jpg"
+            "img_name": "RitaAnderson.jpg"
         },
         {
             "name": "Gary Williams",
@@ -98,18 +98,18 @@
             "designations": [
                 "Staff"
             ],
-            "img_name": "bio-gary.jpg"
+            "img_name": "GaryWilliams.jpg"
         },
         {
             "name": "Michael Eggen",
             "credentials": "PhD",
-            "position": "Applications Programmer",
-            "email": "willi067@umn.edu",
-            "phone": "612-624-3161",
+            "position": "Principal Scientist Medtronic",
+            "email": "michael.d.eggen@medtronic.com",
+            "phone": "763-526-0192",
             "designations": [
                 "Adjunct"
             ],
-            "img_name": "bio-gary.jpg"
+            "img_name": "MichaelEggen.jpg"
         },
         {
             "name": "Alexander Hill",
@@ -120,7 +120,7 @@
             "designations": [
                 "Adjunct"
             ],
-            "img_name": "bio-ah.jpg"
+            "img_name": "AlexanderHill.jpg"
         },
         {
             "name": "Timothy Laske",
@@ -131,7 +131,7 @@
             "designations": [
                 "Adjunct"
             ],
-            "img_name": "bio-tl.jpg"
+            "img_name": "TimothyLaske.jpg"
         },
         {
             "name": "Nicholas Skadsberg",
@@ -142,7 +142,18 @@
             "designations": [
                 "Adjunct"
             ],
-            "img_name": "bio-ns.jpg"
+            "img_name": "NicholasSkadsberg.jpg"
+        },
+        {
+            "name": "Renee Brigham",
+            "credentials": "",
+            "position": "Biomedical Engineering",
+            "email": "brigh146@umn.edu",
+            "phone": "",
+            "designations": [
+                "Doctoral"
+            ],
+            "img_name": "ReneeBrigham.jpg"
         },
         {
             "name": "Erik Gaasedelen",
@@ -153,7 +164,7 @@
             "designations": [
                 "Doctoral"
             ],
-            "img_name": "bio-EG.jpg"
+            "img_name": "ErikGaasedelen.jpg"
         },
         {
             "name": "Mikayle Holm",
@@ -164,7 +175,7 @@
             "designations": [
                 "Doctoral"
             ],
-            "img_name": "bio-MH.jpg"
+            "img_name": "MikayleHolm.jpg"
         },
         {
             "name": "Lars Mattison",
@@ -175,7 +186,7 @@
             "designations": [
                 "Doctoral"
             ],
-            "img_name": "bio-LM.jpg"
+            "img_name": "LarsMattison.jpg"
         },
         {
             "name": "Alex Mattson",
@@ -186,7 +197,7 @@
             "designations": [
                 "Doctoral"
             ],
-            "img_name": "bio-AM.jpg"
+            "img_name": "AlexMattson.jpg"
         },
         {
             "name": "David Ramirez",
@@ -197,7 +208,7 @@
             "designations": [
                 "Doctoral"
             ],
-            "img_name": "bio-DRamirez.jpg"
+            "img_name": "DavidRamirez.jpg"
         },
         {
             "name": "Emma Schinstock",
@@ -208,18 +219,18 @@
             "designations": [
                 "Doctoral"
             ],
-            "img_name": "bio-ESchinstock.jpg"
+            "img_name": "EmmaSchinstock.jpg"
         },
         {
-            "name": "Megan Schmidt",
+            "name": "Amanda Tenhoff",
             "credentials": "",
             "position": "Biomedical Engineering",
-            "email": "schm2696@umn.edu",
-            "phone": "612-624-8742",
+            "email": "tenho004@umn.edu",
+            "phone": "",
             "designations": [
                 "Doctoral"
             ],
-            "img_name": "bio-MS.jpg"
+            "img_name": "AmandaTenhoff.jpg"
         },
         {
             "name": "Jorge Zhingre Sanchez",
@@ -230,29 +241,7 @@
             "designations": [
                 "Doctoral"
             ],
-            "img_name": "bio-JZ.jpg"
-        },
-        {
-            "name": "Lindsey Arndt",
-            "credentials": "",
-            "position": "Biomedical Engineering",
-            "email": "arndt214@umn.edu",
-            "phone": "",
-            "designations": [
-                "Masters"
-            ],
-            "img_name": "bio-LArndt.jpg"
-        },
-        {
-            "name": "Sarah Hamlin",
-            "credentials": "",
-            "position": "Biomedical Engineering",
-            "email": "hamli037@umn.edu",
-            "phone": "",
-            "designations": [
-                "Masters"
-            ],
-            "img_name": "bio-MS.jpg"
+            "img_name": "JorgeZhingreSanchez.jpg"
         },
         {
             "name": "Alyssa Jackson",
@@ -263,18 +252,7 @@
             "designations": [
                 "Masters"
             ],
-            "img_name": "bio-aj.jpg"
-        },
-        {
-            "name": "Lizzie Mattson",
-            "credentials": "",
-            "position": "Biomedical Engineering",
-            "email": "matts538@umn.edu",
-            "phone": "",
-            "designations": [
-                "Masters"
-            ],
-            "img_name": "bio-LMattson.jpg"
+            "img_name": "AlyssaJackson.jpg"
         },
         {
             "name": "Ky O'Rourke",
@@ -285,7 +263,7 @@
             "designations": [
                 "Masters"
             ],
-            "img_name": "bio-KORourke.jpg"
+            "img_name": "KyORourke.jpg"
         },
         {
             "name": "Kaileigh Rock",
@@ -296,7 +274,7 @@
             "designations": [
                 "Masters"
             ],
-            "img_name": "bio-KRock.jpg"
+            "img_name": "KaileighRock.jpg"
         },
         {
             "name": "Tommy Valenzuela III",
@@ -307,18 +285,29 @@
             "designations": [
                 "Masters"
             ],
-            "img_name": "bio-TValenzuela.jpg"
+            "img_name": "TommyValenzuela.jpg"
         },
         {
-            "name": "Paul Cho",
+            "name": "Jason Berg",
             "credentials": "",
-            "position": "Volunteer (Physiology), UROP",
-            "email": "choxx500@umn.edu",
+            "position": "Volunteer (Physiology)",
+            "email": "bergx725@umn.edu",
             "phone": "",
             "designations": [
                 "Volunteer"
             ],
-            "img_name": "bio-pc.jpg"
+            "img_name": "JasonBerg.jpg"
+        },
+        {
+            "name": "Kendall Emfield",
+            "credentials": "",
+            "position": "Volunteer (Human Biology)",
+            "email": "emfield@usc.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "KendallEmfield.jpg"
         },
         {
             "name": "Emma Fiala",
@@ -329,7 +318,7 @@
             "designations": [
                 "Volunteer"
             ],
-            "img_name": "bio-EF.jpg"
+            "img_name": "EmmaFiala.jpg"
         },
         {
             "name": "Ally Fuher",
@@ -340,29 +329,18 @@
             "designations": [
                 "Volunteer"
             ],
-            "img_name": "bio-af.jpg"
-        },
-        {
-            "name": "Josh Gangl",
-            "credentials": "",
-            "position": "Volunteer (Physiology)",
-            "email": "gangl017@umn.edu",
-            "phone": "",
-            "designations": [
-                "Volunteer"
-            ],
-            "img_name": "bio-jg.jpg"
+            "img_name": "AllyFuher.jpg"
         },
         {
             "name": "Mahdi Hurreh",
             "credentials": "",
-            "position": "Volunteer",
+            "position": "Volunteer (Physiology)",
             "email": "hurre009@umn.edu",
             "phone": "",
             "designations": [
                 "Volunteer"
             ],
-            "img_name": "bio-MHurreh.jpg"
+            "img_name": "MahdiHurreh.jpg"
         },
         {
             "name": "Chloe Johnson",
@@ -373,18 +351,18 @@
             "designations": [
                 "Volunteer"
             ],
-            "img_name": "bio-cj.jpg"
+            "img_name": "ChloeJohnson.jpg"
         },
         {
-            "name": "Brenna Kelly",
+            "name": "Nick Karlovich",
             "credentials": "",
-            "position": "Volunteer (Post-bac)",
-            "email": "",
+            "position": "Volunteer (Computer Science)",
+            "email": "karlo015@umn.edu",
             "phone": "",
             "designations": [
                 "Volunteer"
             ],
-            "img_name": "bio-BKelly.jpg"
+            "img_name": "NickKarlovich.jpg"
         },
         {
             "name": "Tarek Khatib",
@@ -395,7 +373,7 @@
             "designations": [
                 "Volunteer"
             ],
-            "img_name": "bio-nopic.jpg"
+            "img_name": "TarekKhatib.jpg"
         },
         {
             "name": "Panyiag Lee",
@@ -406,18 +384,7 @@
             "designations": [
                 "Volunteer"
             ],
-            "img_name": "bio-nopic.jpg"
-        },
-        {
-            "name": "Xiaoyin Ling",
-            "credentials": "",
-            "position": "Volunteer (Mechanical Engineering)",
-            "email": "",
-            "phone": "",
-            "designations": [
-                "Volunteer"
-            ],
-            "img_name": "bio-nopic.jpg"
+            "img_name": "PanyiagLee.jpg"
         },
         {
             "name": "Meghan Longen",
@@ -428,29 +395,40 @@
             "designations": [
                 "Volunteer"
             ],
-            "img_name": "bio-nopic.jpg"
+            "img_name": "MeghanLongen.jpg"
         },
         {
-            "name": "Melanie Menk",
+            "name": "Zac Novaczyk",
             "credentials": "",
-            "position": "Volunteer (Biology)",
-            "email": "menkx035@umn.edu",
+            "position": "Volunteer (MD Candidate)",
+            "email": "novac038@umn.edu",
             "phone": "",
             "designations": [
                 "Volunteer"
             ],
-            "img_name": "bio-ml.jpg"
+            "img_name": "ZacNovaczyk.jpg"
         },
         {
-            "name": "Sydney Newton",
+            "name": "Kishan Patel",
             "credentials": "",
-            "position": "Volunteer (Biology)",
-            "email": "newto158@umn.edu",
+            "position": "Volunteer",
+            "email": "patel563@umn.edu",
             "phone": "",
             "designations": [
                 "Volunteer"
             ],
-            "img_name": "bio-sn.jpg"
+            "img_name": "KishanPatel.jpg"
+        },
+        {
+            "name": "Nicholas Plachinski",
+            "credentials": "",
+            "position": "Volunteer (Biological Sciences)",
+            "email": "patel563@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "NicholasPlachinski.jpg"
         },
         {
             "name": "Danielle Sorensen",
@@ -461,7 +439,18 @@
             "designations": [
                 "Volunteer"
             ],
-            "img_name": "bio-DSorensen.jpg"
+            "img_name": "DanielleSorensen.jpg"
+        },
+        {
+            "name": "Rohan Thakur",
+            "credentials": "",
+            "position": "Volunteer (Neuroscience)",
+            "email": "thaku043@umn.edu",
+            "phone": "",
+            "designations": [
+                "Volunteer"
+            ],
+            "img_name": "RohanThakur.jpg"
         },
         {
             "name": "Claire Thomas",
@@ -472,7 +461,7 @@
             "designations": [
                 "Volunteer"
             ],
-            "img_name": "bio-CThomas.jpg"
+            "img_name": "ClaireThomas.jpg"
         },
         {
             "name": "Nichole Torgerson",
@@ -483,18 +472,21 @@
             "designations": [
                 "Volunteer"
             ],
-            "img_name": "bio-NTorgerson.jpg"
+            "img_name": "NicholeTorgerson.jpg"
         },
         {
-            "name": "Julia Van Luyk",
+            "name": "Windy Zheng",
             "credentials": "",
-            "position": "Volunteer (BMEn)",
-            "email": "vanlu005@umn.edu",
+            "position": "Volunteer (Physiology)",
+            "email": "zheng783@umn.edu",
             "phone": "",
             "designations": [
                 "Volunteer"
             ],
-            "img_name": "bio-jv.jpg"
+            "img_name": "WindyZheng.jpg"
         }
+
+
+
     ]
 }

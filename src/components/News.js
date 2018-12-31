@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import labNewsJson from '../json/labNews.json';
 import '../styles/News.css';
+import Image from 'react-image-resizer';
+
+
 var moment = require('moment');
 
 const newsList = labNewsJson['news'];
@@ -32,7 +35,7 @@ class News extends Component {
 				);
 
 				const news = filteredNews.map((newsItem, index) => {
-					return <div className='newsContainer' key={index}><h3>{newsItem.title}</h3><p><strong>{newsItem.description}</strong><br></br>{moment(newsItem.date).format("LL")}</p></div>
+					return <div className='newsContainer' key={index}> <Image src={process.env.PUBLIC_URL + "/images/" + newsItem.img} height={150} width={150} /><h3>{newsItem.title}</h3><p><strong>{newsItem.description}</strong><br></br>{moment(newsItem.date).format("LL")}</p></div>
 				});
 				
 			

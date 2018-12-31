@@ -14,22 +14,14 @@ class NavBar extends Component {
 					<div class="collapse navbar-collapse" id="navbarNavDropdown">
 						
 						<ul class="navbar-nav">
-						<li class="nav-item">
-								<a class="nav-link" href="/" id="navbarDropdownMenuLink" role="button">
-									Home
-        						</a>
-							</li>
-			
-
+					
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									People
         						</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 									<a class="dropdown-item" href="/about">Meet the Staff</a>
-									<a class="dropdown-item" href="/directions">Directions and Maps</a>
-									<a class="dropdown-item" href="/collaborators">Collaborators</a>
-									<a class="dropdown-item" href="/gift">Give a Gift</a>
+									
 									<a class="dropdown-item" href="/affiliations">Affiliations</a>
 								</div>
 							</li>
@@ -66,11 +58,12 @@ class NavBar extends Component {
 									Media
         						</a>
 							</li>	
-							<li class="nav-item">
-								<a class="nav-link" href="/contact" id="navbarDropdownMenuLink" role="button">
-									Contact
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Contact & Directions
         						</a>
-							</li>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">					<a class="dropdown-item" href="/directions">Directions and Maps</a>
+			</div>				</li>
 						</ul>
 					</div>
 				</nav>
