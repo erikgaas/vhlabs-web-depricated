@@ -159,7 +159,7 @@
         {
             "authors": "Anderson SE, Lahm R, Iaizzo PA:",
             "description": "The coronary vascular system and associated medical devices.",
-            "publisher": "n: Handbook of Cardiac Anatomy, Physiology, and Devices, 2nd edition. Springer, Chapter 7, pages 109-124,",
+            "publisher": "In: Handbook of Cardiac Anatomy, Physiology, and Devices, 2nd edition. Springer, Chapter 7, pages 109-124,",
             "date": "2009."
         },
         {
@@ -231,25 +231,25 @@
         {
             "authors": "Iaizzo PA, Laske TG:",
             "description": "Anatomy and physiology of the cardiac conduction system.",
-            "publisher": "In: Cardiac Electrophysiology Methods and Models, Springer, New York, NY, Chapter 4,",
+            "publisher": "In: Cardiac Electrophysiology Methods and Models, Springer, New York, NY, Chapter 4, pages 73-90,",
             "date": "2010."
         },
         {
             "authors": "Skadsberg ND, Hill AJ, Iaizzo PA:",
             "description": "Isolated heart models.",
-            "publisher": "In: Cardiac Electrophysiology Methods and Models, Springer, New York, NY, Chapter 12,",
+            "publisher": "In: Cardiac Electrophysiology Methods and Models, Springer, New York, NY, Chapter 12, pages 249-260,",
             "date": "2010."
         },
         {
             "authors": "Bateman M, Howard SA, Rolfes C, Laske TG, Iaizzo PA:",
             "description": "Cardiac devices and testing.",
-            "publisher": "In: Handbook of Medical Technology. Springer, New York, NY,",
+            "publisher": "In: Hoffman KP, ed. Handbook of Medical Technology. Springer, New York, NY, Chapter 43, pages 855-876,",
             "date": "2011."
         },
         {
             "authors": "Iaizzo PA, Durfee WK:",
             "description": "Functional force assessment of skeletal muscles.",
-            "publisher": "In: Handbook of Medical Technology. Springer, New York, NY,",
+            "publisher": "In: Handbook of Medical Technology. Springer, New York, NY, Chapter 14, pages 273-287,",
             "date": "2011."
         },
         {
@@ -315,7 +315,7 @@
         {
             "authors": "Hill AJ, Iaizzo PA:",
             "description": "Comparative cardiac anatomy.",
-            "publisher": "In: Handbook of Cardiac Anatomy, Physiology and Devices, 3rd edition, Springer, ",
+            "publisher": "In: Handbook of Cardiac Anatomy, Physiology and Devices, 3rd edition, Springer,",
             "date": "2015."
         },
         {
@@ -407,6 +407,66 @@
             "description": "Cardiac devices and technologies: continued rapid rates of development.",
             "publisher": "In: Handbook of Cardiac Anatomy, Physiology and Devices, 3rd edition, Springer,",
             "date": "2015."
+        },
+        {
+            "authors": "Shaffer AW, Mattison LM, Spratt JR, Iles TL, Kerns N, Bateman MG, Huddleston SJ, Kelly RF, John R, Liao KK, Iaizzo PA:",
+            "description": "A new era for improving cardiothoracic transplantations.",
+            "publisher": "In: Engineering in Medicine: Advances and Opportunities, Elsevier,",
+            "date": "2018."
+        },
+        {
+            "authors": "Bateman MG, Iles TL, Iaizzo PA:",
+            "description": "Advancing the design and testing of novel cardiac device technologies using the Visible Heart®.",
+            "publisher": "In: Engineering in Medicine: Advances and Opportunities, Elsevier,",
+            "date": "2018."
+        },
+        {
+            "authors": "Mattson AR, Eggen MD, Iaizzo PA:",
+            "description": "The cardiac pacemaker: a crossroads of engineering and medicine.",
+            "publisher": "In: Engineering in Medicine: Advances and Opportunities, Elsevier,",
+            "date": "2018."
+        },
+        {
+            "authors": "Mattison LM, Howard BT, Iaizzo PA:",
+            "description": "Electroporation ablative therapy as a clinical tool: an old technology revisited.",
+            "publisher": "In: Engineering in Medicine: Advances and Opportunities, Elsevier,",
+            "date": "2018."
+        },
+        {
+            "authors": "Gaasedelen EN, Iaizzo PA:",
+            "description": "3D graphics to virtual reality in medicine: opportunities and prospective.",
+            "publisher": "In: Engineering in Medicine: Advances and Opportunities, Elsevier,",
+            "date": "2018."
+        },
+        {
+            "authors": "Zhingre Sanchez J, Bateman MG, Iaizzo PA:",
+            "description": "Engineering and technologies associated with cardiac valve repair and replacement therapies.",
+            "publisher": "In: Engineering in Medicine: Advances and Opportunities, Elsevier,",
+            "date": "2018."
+        },
+        {
+            "authors": "Holm MA, Iaizzo PA:",
+            "description": "Importance of human cadaver studies in education and medical device research: insights derived from various imaging studies and modalities.",
+            "publisher": "In: Engineering in Medicine: Advances and Opportunities, Elsevier,",
+            "date": "2018."
+        },
+        {
+            "authors": "Durfee WK, Iaizzo PA:",
+            "description": "The medical device innovation process.",
+            "publisher": "In: Engineering in Medicine: Advances and Opportunities, Elsevier,",
+            "date": "2018."
+        },
+        {
+            "authors": "Durfee WK, Iaizzo PA:",
+            "description": "Educating innovators of medical technologies.",
+            "publisher": "In: Engineering in Medicine: Advances and Opportunities, Elsevier,",
+            "date": "2018."
+        },
+        {
+            "authors": "Durfee WK, Iaizzo PA:",
+            "description": "Medical applications of 3D printing.",
+            "publisher": "In: Engineering in Medicine: Advances and Opportunities, Elsevier,",
+            "date": "2018."
         }
 
     ]

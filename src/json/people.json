@@ -9,7 +9,8 @@
             "designations": [
                 "Faculty"
             ],
-            "img_name": "PaulIaizzo.jpg"
+            "img_name": "PaulIaizzo.jpg",
+            "pdf": "PIaizzoCV_MASTER 2.doc"
         },
         {
             "name": "Mike Bateman",
@@ -20,7 +21,8 @@
             "designations": [
                 "Faculty"
             ],
-            "img_name": "MikeBateman.jpg"
+            "img_name": "MikeBateman.jpg",
+            "pdf": "mBatemanCV.pdf"
         },
         {
             "name": "Tinen Iles",

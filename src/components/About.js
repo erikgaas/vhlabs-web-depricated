@@ -27,7 +27,7 @@ class About extends Component {
 			person.designations.includes("Staff")).sort(this.compareNames);
 
 		const adjunct = people.filter(person =>  
-			person.designations.includes("adjunct")).sort(this.compareNames);
+			person.designations.includes("Adjunct")).sort(this.compareNames);
 
 		const doctoral = people.filter(person => 
 			person.designations.includes("Doctoral")).sort(this.compareNames);

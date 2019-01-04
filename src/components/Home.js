@@ -1,21 +1,14 @@
 import React, { Component } from 'react';
-import Image from 'react-image-resizer';
-import {Carousel} from 'react-responsive-carousel';
-import HomeElement from '../components/HomeElement.js';
 import homeJson from '../json/homePage.json';
 import '../styles/Home.css';
 import { Timeline } from 'react-twitter-widgets'
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
+import {Carousel} from 'react-responsive-carousel';
 
-
-var carousel = homeJson['carousel'];
-var homeElements = homeJson['homeElements'];
+const carousel = homeJson['carousel'];
 
 class Home extends Component {
-
-	//get full carousel data here
-
-	makeElement(data) {
+    makeElement(data) {
 		return (
 			<div key={data.img_path}>
 				<img src={process.env.PUBLIC_URL + "/images/carousel/".concat(data.img_path)} />
@@ -24,46 +17,96 @@ class Home extends Component {
 		);
 	}
 
-
-	render() {
+    render() {
 		return (
 				<div className='Home'>
-					<div className='CarouselContainer'>
-						<Carousel className="Carousel" 
-									dynamicHeight={false} 
-									infiniteLoop={true} 
-									autoPlay={true} 
-									swipeable={true} 
-									emulateTouch={true}
-									showThumbs={false}>
-							{carousel.map(el => this.makeElement(el))}
-						</Carousel>
+				<div className="row" id="row1">
+				<div className="col-md-1"></div>
+					<div className="col-md-7">
+						<div className='CarouselContainer'>
+							<Carousel className="Carousel" 
+										dynamicHeight={false} 
+										infiniteLoop={true} 
+										autoPlay={true} 
+										swipeable={true} interval={3000}
+										emulateTouch={true}
+										showThumbs={false}>
+								{carousel.map(el => this.makeElement(el))}
+							</Carousel>
+						</div>
 					</div>
-
-					<div className="HomeElList">
-						{homeElements.map(el => <HomeElement data={el} />)}
-					</div>
-
-					<div className="ExtraHome">
-						<a href="http://www.vhlab.umn.edu/bears/index.html">	
-							<img src={process.env.PUBLIC_URL + "/images/bear.png"} height={300}/>
-							<h3>MN Black Bear Research</h3>
-
-						</a>
-						<a href="http://www.vhlab.umn.edu/atlas/vr/">	
-							<img src={process.env.PUBLIC_URL + "/images/VRTour.jpg"} height={300}/>
-							<h3>Virtual Reality</h3>
-
-						</a>
-						<Timeline dataSource={{sourceType: "profile", screenName: "VisibleHeartLab"}}
-							options={{username:"VisibleHeartLab", width:"300px", height:"350"}}/>
+					{/* <div className="col-md-1" id="emptyDiv"></div> */}
+					<div className="col-md-4" id="twitterDiv">
+							<Timeline dataSource={{sourceType: "profile", screenName: "VisibleHeartLab"}}
+								options={{username:"VisibleHeartLab", width:"300px", height:"350"}}/>
 					</div>
 
 
-				</div>
+											{/* Home Element Cards */}
 
-			);
-	}
-}
+									<div className="row" id="row2">
+									
+											<div className="col-md-2">
+															<div class="card" >
+																<h3>Our Lab</h3>	
+																<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/ourlab3.jpg"} alt="The Atlas" />
+																<div class="card-body">
+																	<p class="card-text">Information here about The Lab</p>
+																	<a href="/about" class="btn btn-primary">More Information</a>
+																</div>
+															</div>
+											</div>
 
+											<div className="col-md-2">
+													<div class="card" >
+														<h3>Research</h3>
+														<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/Research.jpg"} alt="Research" />
+														<div class="card-body">
+															<p class="card-text">Information here about Research.</p>
+															<a href="/research" class="btn btn-primary">More Information</a>
+														</div>
+													</div>
+											</div>
+
+											<div className="col-md-2">
+													<div class="card" >
+														<h3>Outreach</h3>
+														<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/education5.jpg"} alt="Outreach & Education" />
+														<div class="card-body">
+															<p class="card-text">Information here about Outreach and Education.</p>
+															<a href="/education" class="btn btn-primary">More Information</a>
+														</div>
+													</div>
+											</div>
+
+											<div className="col-md-2">
+													<div class="card" >
+														<h3>Clinical</h3>	
+														<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/mhlogo.jpg"} alt="The Atlas" />
+														<div class="card-body">
+															<p class="card-text">Information here about Clinical.</p>
+															<a href="http://www.vhlab.umn.edu/atlas/index.shtml" class="btn btn-primary">More Information</a>
+														</div>
+													</div>
+											</div>
+
+											<div className="col-md-2">
+													<div class="card" >
+														<h3>The Atlas</h3>	
+														<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/Happaratus.jpg"} alt="The Atlas" />
+														<div class="card-body">
+															<p class="card-text">Information here about The Atlas.</p>
+															<a href="http://www.vhlab.umn.edu/atlas/index.shtml" class="btn btn-primary">More Information</a>
+														</div>
+													</div>
+											</div>
+									</div>
+
+
+
+</div>
+</div>
+
+			
+        )}}
 export default Home;

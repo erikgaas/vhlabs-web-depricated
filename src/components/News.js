@@ -8,6 +8,12 @@ var moment = require('moment');
 
 const newsList = labNewsJson['news'];
 
+const ImageComponent = ({ children, img }) => img ? (
+	<Image src={process.env.PUBLIC_URL + "/images/" + img} height={150} width={150}>
+	  {children}
+	</Image>
+  ) : <div>{children}</div>;
+  
 class News extends Component {
 	constructor() {
 		super();
@@ -35,12 +41,17 @@ class News extends Component {
 				);
 
 				const news = filteredNews.map((newsItem, index) => {
-					return <div className='newsContainer' key={index}> <Image src={process.env.PUBLIC_URL + "/images/" + newsItem.img} height={150} width={150} /><h3>{newsItem.title}</h3><p><strong>{newsItem.description}</strong><br></br>{moment(newsItem.date).format("LL")}</p></div>
+					return <div className='newsContainer' key={index}>
+					<div className="imageDiv">
+					<ImageComponent img={newsItem.img}></ImageComponent></div>
+					<div className="textDiv">
+					<h3>{newsItem.title}</h3><p><strong>{newsItem.description}
+					
+					</strong><br></br>{moment(newsItem.date).format("LL")}</p></div></div>
 				});
 				
 			
 		return (
-			
 				<div className='container'>
 					<div className='pageTitle'><h1>Lab News</h1></div>
 					<input type="text" value={this.state.search} onChange={this.updateSearch.bind(this)} />

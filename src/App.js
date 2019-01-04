@@ -6,7 +6,6 @@ import NavBar from './components/NavBar';
 import Home from './components/Home.js';
 import Footer from './components/Footer.js';
 
-import Home2 from './components/Home2.js'
 
 import Research from './components/Research.js';
 import ResearchTopic from './components/ResearchTopic.js';
@@ -36,8 +35,6 @@ class App extends Component {
 
 
           <Route exact path="/" component={Home} />
-
-          <Route exact path="/home2" component={Home2} />
 
           <Route path="/research" component={Research} />
           <Route path="/research/:topic" component={ResearchTopic} />
