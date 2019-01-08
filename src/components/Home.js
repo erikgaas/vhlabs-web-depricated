@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import homeJson from '../json/homePage.json';
-import '../styles/Home.css';
 import { Timeline } from 'react-twitter-widgets'
-import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import '../styles/Home.css';
 import {Carousel} from 'react-responsive-carousel';
 
 const carousel = homeJson['carousel'];
@@ -28,7 +28,8 @@ class Home extends Component {
 										dynamicHeight={false} 
 										infiniteLoop={true} 
 										autoPlay={true} 
-										swipeable={true} interval={3000}
+										swipeable={true} 
+										interval={3000}
 										emulateTouch={true}
 										showThumbs={false}>
 								{carousel.map(el => this.makeElement(el))}
@@ -52,7 +53,6 @@ class Home extends Component {
 																<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/ourlab3.jpg"} alt="The Atlas" />
 																<div class="card-body">
 																	<p class="card-text">Information here about The Lab</p>
-																	<a href="/about" class="btn btn-primary">More Information</a>
 																</div>
 															</div>
 											</div>
@@ -63,7 +63,6 @@ class Home extends Component {
 														<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/Research.jpg"} alt="Research" />
 														<div class="card-body">
 															<p class="card-text">Information here about Research.</p>
-															<a href="/research" class="btn btn-primary">More Information</a>
 														</div>
 													</div>
 											</div>
@@ -74,7 +73,6 @@ class Home extends Component {
 														<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/education5.jpg"} alt="Outreach & Education" />
 														<div class="card-body">
 															<p class="card-text">Information here about Outreach and Education.</p>
-															<a href="/education" class="btn btn-primary">More Information</a>
 														</div>
 													</div>
 											</div>
@@ -85,7 +83,6 @@ class Home extends Component {
 														<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/mhlogo.jpg"} alt="The Atlas" />
 														<div class="card-body">
 															<p class="card-text">Information here about Clinical.</p>
-															<a href="http://www.vhlab.umn.edu/atlas/index.shtml" class="btn btn-primary">More Information</a>
 														</div>
 													</div>
 											</div>
@@ -96,7 +93,6 @@ class Home extends Component {
 														<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/Happaratus.jpg"} alt="The Atlas" />
 														<div class="card-body">
 															<p class="card-text">Information here about The Atlas.</p>
-															<a href="http://www.vhlab.umn.edu/atlas/index.shtml" class="btn btn-primary">More Information</a>
 														</div>
 													</div>
 											</div>

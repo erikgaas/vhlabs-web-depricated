@@ -17,11 +17,21 @@ h3,p {
 
 .imageDiv {
     display: inline-block;
-    vertical-align:top
+    vertical-align:top;
+    margin-left: 20px
+
 }
 
 .textDiv {
     display: inline-block;
     margin-top: 50px;
-    margin-left: 20px
+  
+}
+
+#searchbox-container {
+    float: right
+}
+
+#searchbox {
+    margin-left: 5px
 }

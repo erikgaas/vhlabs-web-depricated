@@ -23,76 +23,92 @@ class About extends Component {
 		const faculty = people.filter(person => person.name != "Paul Iaizzo"
 			&& person.designations.includes("Faculty")).sort(this.compareNames);
 
-		const staff = people.filter(person => 
+		const staff = people.filter(person =>
 			person.designations.includes("Staff")).sort(this.compareNames);
 
-		const adjunct = people.filter(person =>  
+		const adjunct = people.filter(person =>
 			person.designations.includes("Adjunct")).sort(this.compareNames);
 
-		const doctoral = people.filter(person => 
+		const doctoral = people.filter(person =>
 			person.designations.includes("Doctoral")).sort(this.compareNames);
 
-		const masters = people.filter(person => 
+		const masters = people.filter(person =>
 			person.designations.includes("Masters")).sort(this.compareNames);
 
-		const volunteers = people.filter(person => 
+		const volunteers = people.filter(person =>
 			person.designations.includes("Volunteer")).sort(this.compareNames);
 
 
 		return (
-				<div>
-					<h1>Our Lab</h1>
-					<p>Dr. Paul Iaizzo has been at the University of Minnesota since 1990, 
-					performing research and teaching graduate and
-					 undergraduate courses. In 1997, Dr. Iaizzo and his 
-					 coworkers began working on large mammalian isolated 
-					 heart models, and thus the Visible Heart® laboratory was 
-					 created in collaboration with Medtronic. Today, this 
-					 lab is a premiere place to perform translational systems 
-					 physiology research which ranges from cellular and tissue 
-					 studies to organ and whole body investigations. The Visible Heart® 
-					 lab embodies a creative atmosphere which is energized by 
-					 some of the best and brightest students at the University. 
-					 Our lab staff has over 100 years of collective 
-					 research experience and functions as a highly efficient 
+			<div>
+				<h1>Our Lab</h1>
+				<p>Dr. Paul Iaizzo has been at the University of Minnesota since 1990,
+				performing research and teaching graduate and
+				 undergraduate courses. In 1997, Dr. Iaizzo and his
+				 coworkers began working on large mammalian isolated
+				 heart models, and thus the Visible Heart® laboratory was
+				 created in collaboration with Medtronic. Today, this
+				 lab is a premiere place to perform translational systems
+				 physiology research which ranges from cellular and tissue
+				 studies to organ and whole body investigations. The Visible Heart®
+				 lab embodies a creative atmosphere which is energized by
+				 some of the best and brightest students at the University.
+				 Our lab staff has over 100 years of collective
+				 research experience and functions as a highly efficient
 					 and productive team.</p>
 
-					<h1>Our People</h1>
-					<h2>Faculty</h2>
-					<div className="PersonGroup">
-						<PersonCard data={paul} />
-						{ faculty.map(person => <PersonCard data={person}/>) }
+				<h1>Our People</h1>
+				<div className="dropdown show">
+					<a className="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Jump to...
+  					</a>
+					<div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a className="dropdown-item" href="#faculty">Faculty</a>
+						<a className="dropdown-item" href="#staff">Staff</a>
+						<a className="dropdown-item" href="#adjunct">Adjunct Assistant Professors</a>
+						<a className="dropdown-item" href="#doctoral">Doctoral/Postdoctoral Students</a>
+						<a className="dropdown-item" href="#masters">Masters Students</a>
+						<a className="dropdown-item" href="#volunteers">Volunteers, Undergraduate Students,
+					Casual/Temps/Directed Research</a>
+
+
+
 					</div>
-
-					<h2>Staff</h2>
-					<div className="PersonGroup">
-						{ staff.map(person => <PersonCard data={person}/>) }
-					</div>
-
-					<h2>Adjunct Assistant Professors</h2>
-					<div className="PersonGroup">
-						{ adjunct.map(person => <PersonCard data={person}/>) }
-					</div>
-
-					<h2>Doctoral/Postdoctoral Students</h2>
-					<div className="PersonGroup">
-						{ doctoral.map(person => <PersonCard data={person}/>) }
-					</div>
-
-					<h2>Masters Students</h2>
-					<div className="PersonGroup">
-						{ masters.map(person => <PersonCard data={person}/>) }
-					</div>
-
-					<h2>Volunteers, Undergraduate Students,
-					Casual/Temps/Directed Research</h2>
-					<div className="PersonGroup">
-						{ volunteers.map(person => <PersonCard data={person}/>) }
-					</div>
-
-
 				</div>
-			);
+
+				<h2 id="faculty">Faculty</h2>
+				<div className="PersonGroup">
+					<PersonCard data={paul} />
+					{faculty.map(person => <PersonCard data={person} />)}
+				</div>
+
+				<h2 id="staff">Staff</h2>
+				<div className="PersonGroup">
+					{staff.map(person => <PersonCard data={person} />)}
+				</div>
+
+				<h2 id="adjunct">Adjunct Assistant Professors</h2>
+				<div className="PersonGroup">
+					{adjunct.map(person => <PersonCard data={person} />)}
+				</div>
+
+				<h2 id="doctoral">Doctoral/Postdoctoral Students</h2>
+				<div className="PersonGroup">
+					{doctoral.map(person => <PersonCard data={person} />)}
+				</div>
+
+				<h2 id="masters">Masters Students</h2>
+				<div className="PersonGroup">
+					{masters.map(person => <PersonCard data={person} />)}
+				</div>
+
+				<h2 id="volunteers">Volunteers, Undergraduate Students,
+					Casual/Temps/Directed Research</h2>
+				<div className="PersonGroup">
+					{volunteers.map(person => <PersonCard data={person} />)}
+				</div>
+			</div>
+		);
 	}
 }
 

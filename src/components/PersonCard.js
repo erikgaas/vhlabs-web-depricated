@@ -3,7 +3,7 @@ import Image from 'react-image-resizer';
 import '../styles/PersonCard.css';
 
 const CVComponent = ({ children, pdf }) => pdf ? (
-  <a href={process.env.PUBLIC_URL + "/pdfs/" + pdf}>
+  <a href={process.env.PUBLIC_URL + "/pdfs/" + pdf} target="_blank">
     {children}
   </a>
 ) : <div>{children}</div>;

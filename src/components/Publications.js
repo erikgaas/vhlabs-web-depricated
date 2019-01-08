@@ -31,14 +31,15 @@ class Publications extends Component {
 
 
 	render() {
-		// origArt.sort(function(a, b) {
-		// 	var dateA = new Date(a.date), dateB = new Date(b.date);
-		// 	return dateB - dateA;
-		// });
+		origArt.sort(function(a, b) {
+			var dateA = new Date(a.date), dateB = new Date(b.date);
+			return dateB - dateA;
+		});
 
 //-----------------------All Filtered Functions-----------		
 			let filteredOArt = origArt.filter((origAItem) => {
 				return origAItem.authors.toLowerCase().includes(this.state.search.toLowerCase())
+				
 			});
 			const originalArticles = filteredOArt.map((origAItem, index) => {
 				return <div className='origAContainer' key={index}><li><h5>{origAItem.authors} {origAItem.description} <i>{origAItem.journal}</i> {origAItem.date} {origAItem.journalID}</h5></li></div>

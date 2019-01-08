@@ -1,0 +1,11 @@
+h1, h4, p {
+    color:#660015
+}
+
+/* a {
+    text-decoration: none
+} */
+
+a:hover {
+    color: maroon 
+}

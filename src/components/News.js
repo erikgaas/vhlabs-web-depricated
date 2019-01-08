@@ -42,20 +42,26 @@ class News extends Component {
 
 				const news = filteredNews.map((newsItem, index) => {
 					return <div className='newsContainer' key={index}>
-					<div className="imageDiv">
-					<ImageComponent img={newsItem.img}></ImageComponent></div>
+					
 					<div className="textDiv">
 					<h3>{newsItem.title}</h3><p><strong>{newsItem.description}
 					
-					</strong><br></br>{moment(newsItem.date).format("LL")}</p></div></div>
+					</strong><br></br>{moment(newsItem.date).format("LL")}</p>
+					
+					</div>
+					<div className="imageDiv">
+					<ImageComponent img={newsItem.img}></ImageComponent></div>
+					<p>{newsItem.more}</p>
+					</div>
 				});
 				
 			
 		return (
 				<div className='container'>
 					<div className='pageTitle'><h1>Lab News</h1></div>
-					<input type="text" value={this.state.search} onChange={this.updateSearch.bind(this)} />
-					
+					<p id="searchbox-container"> Search the News: 
+					<input id="searchbox" type="text" value={this.state.search} onChange={this.updateSearch.bind(this)} />
+					</p>
 					 <div>{news}</div>
 				
 				</div>
