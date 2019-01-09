@@ -3,3 +3,28 @@
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
+#dropdownMenuLink {
+	background-color: white;
+	color: black;
+	margin-left: 40px
+}
+
+#jumpToMenuDiv {
+	background-color: white;
+	color: black;
+}
+
+#jumpToMenu {
+	background-color: white;
+	color: black;
+}
+
+#jumpToMenu:hover {
+	background-color: #ffe3a0
+}
+
+p {
+	margin-left: 40px;
+	margin-bottom: 30px
+}

@@ -62,13 +62,13 @@ class About extends Component {
 					<a className="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Jump to...
   					</a>
-					<div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-						<a className="dropdown-item" href="#faculty">Faculty</a>
-						<a className="dropdown-item" href="#staff">Staff</a>
-						<a className="dropdown-item" href="#adjunct">Adjunct Assistant Professors</a>
-						<a className="dropdown-item" href="#doctoral">Doctoral/Postdoctoral Students</a>
-						<a className="dropdown-item" href="#masters">Masters Students</a>
-						<a className="dropdown-item" href="#volunteers">Volunteers, Undergraduate Students,
+					<div className="dropdown-menu" id="jumpToMenuDiv" aria-labelledby="dropdownMenuLink">
+						<a className="dropdown-item" id="jumpToMenu" href="#faculty">Faculty</a>
+						<a className="dropdown-item" id="jumpToMenu" href="#staff">Staff</a>
+						<a className="dropdown-item" id="jumpToMenu" href="#adjunct">Adjunct Assistant Professors</a>
+						<a className="dropdown-item" id="jumpToMenu" href="#doctoral">Doctoral/Postdoctoral Students</a>
+						<a className="dropdown-item" id="jumpToMenu" href="#masters">Masters Students</a>
+						<a className="dropdown-item" id="jumpToMenu" href="#volunteers">Volunteers, Undergraduate Students,
 					Casual/Temps/Directed Research</a>
 
 

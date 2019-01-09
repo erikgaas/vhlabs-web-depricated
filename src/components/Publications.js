@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "../styles/Publications.css";
-
+// import combinedJson from './Combined.js';
 import originalArticlesJSON from "../json/Publications/originalArticles.json";
 import reviewArticlesJSON from "../json/Publications/reviewArt.json";
 import booksJSON from "../json/Publications/books.json";
