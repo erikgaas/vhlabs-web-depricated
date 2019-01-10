@@ -18,9 +18,9 @@ class About extends Component {
 
 	render() {
 
-		const paul = people.filter(person => person.name == "Paul Iaizzo")[0];
+		const paul = people.filter(person => person.name == "Paul A. Iaizzo")[0];
 
-		const faculty = people.filter(person => person.name != "Paul Iaizzo"
+		const faculty = people.filter(person => person.name != "Paul A. Iaizzo"
 			&& person.designations.includes("Faculty")).sort(this.compareNames);
 
 		const staff = people.filter(person =>
@@ -42,7 +42,7 @@ class About extends Component {
 		return (
 			<div>
 				<h1>Our Lab</h1>
-				<p id="aboutParagraph">Dr. Paul Iaizzo has been at the University of Minnesota since 1990,
+				<p id="aboutParagraph">Dr. Paul A. Iaizzo has been at the University of Minnesota since 1990,
 				performing research and teaching graduate and
 				 undergraduate courses. In 1997, Dr. Iaizzo and his
 				 coworkers began working on large mammalian isolated
