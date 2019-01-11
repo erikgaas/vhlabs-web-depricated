@@ -18,7 +18,7 @@ class About extends Component {
 
 	render() {
 
-		const paul = people.filter(person => person.name == "Paul A. Iaizzo")[0];
+		const paul = people.filter(person => person.name === "Paul A. Iaizzo")[0];
 
 		const faculty = people.filter(person => person.name != "Paul A. Iaizzo"
 			&& person.designations.includes("Faculty")).sort(this.compareNames);

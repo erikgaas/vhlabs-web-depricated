@@ -45,6 +45,7 @@ let filteredArticles = allData.filter ((dataItem) => {
 const filteredMap = filteredArticles.map((dataItem, index) => {
 	return <div key={index}><li><h5>{dataItem.authors} {dataItem.description} {dataItem.journal} {dataItem.date} {dataItem.journalID} </h5></li></div>
 })
+console.log(filteredMap);
 
 
 //-----------------------All Filtered Functions-----------		
@@ -140,6 +141,7 @@ const filteredMap = filteredArticles.map((dataItem, index) => {
 						<h4><strong>Educational Materials</strong></h4>
 							<ol>{eduMaterials}</ol> */}
 <ol>{filteredMap}</ol>
+
 						
 				</div>
 			);
