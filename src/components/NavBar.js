@@ -14,7 +14,11 @@ class NavBar extends Component {
 					<div class="collapse navbar-collapse" id="navbarNavDropdown">
 						
 						<ul class="navbar-nav">
-					
+						<li class="nav-item">
+								<a class="nav-link" href="/gift" id="navbarDropdownMenuLink" role="button">
+									Give
+        						</a>
+							</li>
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									People

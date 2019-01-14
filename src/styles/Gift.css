@@ -1,0 +1,16 @@
+.instructions, .col-md-3, .mailingAddress, .phoneNumber {
+    text-align: center
+}
+
+h3, h5 {
+    font-size: 35px;
+    color: #46000E
+}
+
+.mailGift, .phoneGift {
+    margin-top: 80px
+}
+
+.mailingAddress, .phoneNumber {
+    font-size: 25px
+}
