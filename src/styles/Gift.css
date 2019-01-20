@@ -2,7 +2,7 @@
     text-align: center
 }
 
-h3, h5 {
+.giftText {
     font-size: 35px;
     color: #46000E
 }
@@ -13,4 +13,31 @@ h3, h5 {
 
 .mailingAddress, .phoneNumber {
     font-size: 25px
+}
+
+/* ------------------------Media Queries------------ */
+
+@media only screen and (max-width: 768px) {
+    .giftText {
+        font-size: 18px
+    }
+
+    .mailingAddress, .phoneNumber {
+        font-size: 14px
+    }
+
+    .container {
+       margin-left: 50px
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    .iconGiftPage {
+        width: 200px;
+        height: 200px
+    }
+    .container {
+        margin-left: 0px;
+    }
+
 }

@@ -1,44 +1,44 @@
 {
-    "books": [
+    "articles": [
         {
-            "editors": "Iaizzo PA (Editor).",
-            "title": "Cardiac Electrophysiology Methods and Models,",
+            "authors": "Iaizzo PA (Editor).",
+            "description": "Cardiac Electrophysiology Methods and Models,",
             "publisher": "Humana Press Inc., Totowa, NJ,",
             "date": "2005."
         },
         {
             "editors": "Iaizzo PA (Editor).",
-            "title": "The Handbook of Cardiac Anatomy, Physiology and Devices, 2nd edition.",
+            "description": "The Handbook of Cardiac Anatomy, Physiology and Devices, 2nd edition.",
             "publisher": "Springer, New York, NY,",
             "date": "2009."
         },
         {
             "editors": "Sigg DS, Iaizzo PA, Xiao Y-F, He B (Editors).",
-            "title": "The Handbook of Cardiac Anatomy, Physiology and Devices.",
+            "description": "The Handbook of Cardiac Anatomy, Physiology and Devices.",
             "publisher": "Springer, Inc.,",
             "date": "2010."
         },
         {
             "editors": "Iaizzo PA, Bianco RW, Hill AJ, St. Louis JD (Editors).",
-            "title": "Heart Valves: From Design to Clinical Implantation,",
+            "description": "Heart Valves: From Design to Clinical Implantation,",
             "publisher": "Springer Science + Media, New York, NY,",
             "date": "2013."
         },
         {
             "editors": "Iaizzo PA (Editor).",
-            "title": "The Handbook of Cardiac Anatomy, Physiology and Devices, 3rd edition.",
+            "description": "The Handbook of Cardiac Anatomy, Physiology and Devices, 3rd edition.",
             "publisher": "Springer, New York, NY,",
             "date": "2015."
         },
         {
             "editors": "Durfee WK and Iaizzo PA (Editors).",
-            "title": "Medical Device Innovation Handbook,",
+            "description": "Medical Device Innovation Handbook,",
             "publisher": "Medical Devices Center, University of Minnesota,",
             "date": "2015."
         },
         {
             "editors": "Iaizzo PA (Editor).",
-            "title": "Engineering in Medicine: Advances and Opportunities,",
+            "description": "Engineering in Medicine: Advances and Opportunities,",
             "publisher": "Elsevier,",
             "date": "2018."
         }

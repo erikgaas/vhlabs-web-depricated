@@ -11,7 +11,7 @@ import Research from './components/Research.js';
 import ResearchTopic from './components/ResearchTopic.js';
 import ResearchTopicWriteup from './components/ResearchTopicWriteup.js';
 
-import Education from './components/Education.js';
+import Outreach from './components/Outreach.js';
 import Clinical from './components/Clinical';
 
 import About from './components/About.js';
@@ -24,6 +24,13 @@ import Media from './components/Media.js';
 import Publications from './components/Publications.js';
 import Contact from './components/Contact.js';
 
+
+
+import ThreeDModeling from './components/ResearchTopics/3DModeling/3DModeling.js';
+        import CarePrints from './components/ResearchTopics/3DModeling/CarePrints.js';
+        import VirtualReality from './components/ResearchTopics/3DModeling/VirtualReality.js';
+        import Devices from './components/ResearchTopics/3DModeling/Devices.js';
+        import Education from './components/ResearchTopics/3DModeling/Education.js';
 
 class App extends Component {
   render() {
@@ -40,7 +47,7 @@ class App extends Component {
           <Route path="/research/:topic" component={ResearchTopic} />
           <Route path="/research/:topic/:writeup" component={ResearchTopicWriteup} />
 
-          <Route path="/education" component={Education} />
+          <Route path="/outreach" component={Outreach} />
           <Route path="/clinical" component={Clinical} />
 
 
@@ -56,6 +63,14 @@ class App extends Component {
 
           <Route path="/contact" component={Contact} />
 
+
+
+
+          <Route path="/research-3d" component={ThreeDModeling} />
+                  <Route path="/research-3d-1" component={CarePrints} />
+                  <Route path="/research-3d-2" component={VirtualReality} />
+                  <Route path="/research-3d-3" component={Devices} />
+                  <Route path="/research-3d-4" component={Education} />
           <Footer />
         </div>
 

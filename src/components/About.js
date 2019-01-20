@@ -5,8 +5,6 @@ import '../styles/About.css';
 
 var people = peopleJson['people'];
 
-
-//tile-paragraphs could be their own component.
 class About extends Component {
 
 	compareNames(a, b) {
@@ -20,7 +18,7 @@ class About extends Component {
 
 		const paul = people.filter(person => person.name === "Paul A. Iaizzo")[0];
 
-		const faculty = people.filter(person => person.name != "Paul A. Iaizzo"
+		const faculty = people.filter(person => person.name !== "Paul A. Iaizzo"
 			&& person.designations.includes("Faculty")).sort(this.compareNames);
 
 		const staff = people.filter(person =>
@@ -59,7 +57,7 @@ class About extends Component {
 
 				<h1>Our People</h1>
 				<div className="dropdown show">
-					<a className="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<a className="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Jump to...
   					</a>
 					<div className="dropdown-menu" id="jumpToMenuDiv" aria-labelledby="dropdownMenuLink">

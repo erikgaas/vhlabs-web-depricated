@@ -6,67 +6,67 @@ class NavBar extends Component {
 	render() {
 		return (
 			<div className='NavBar'> 
-				<nav class="navbar navbar-expand-lg navbar-light ">
-				<span><a class="navbar-brand" href="/">The <span class="vhColor">Visible Heart®</span> Laboratory</a> | <a class="navbar-brand" href="https://www.surgery.umn.edu/">Department of Surgery</a></span>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
+				<nav className="navbar navbar-expand-xl navbar-light ">
+				<span><a className="navbar-brand" href="/">The <span className="vhColor">Visible Heart®</span> Laboratory</a> | <a className="navbar-brand" href="https://www.surgery.umn.edu/">Department of Surgery</a></span>
+					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<span className="navbar-toggler-icon"></span>
 					</button>
-					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<div className="collapse navbar-collapse" id="navbarNavDropdown">
 						
-						<ul class="navbar-nav">
-						<li class="nav-item">
-								<a class="nav-link" href="/gift" id="navbarDropdownMenuLink" role="button">
+						<ul className="navbar-nav">
+						<li className="nav-item">
+								<a className="nav-link" href="/gift" id="navbarDropdownMenuLink" role="button">
 									Give
         						</a>
 							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<li className="nav-item dropdown">
+								<a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									People
         						</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="/about">Meet the Lab</a>
-									<a class="dropdown-item" href="/collaborators">Collaborators</a>
-									<a class="dropdown-item" href="/affiliations">Department Affiliations</a>
+								<div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<a className="dropdown-item" href="/about">Meet the Lab</a>
+									<a className="dropdown-item" href="/collaborators">Collaborators</a>
+									<a className="dropdown-item" href="/affiliations">Department Affiliations</a>
 								</div>
 							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<li className="nav-item dropdown">
+								<a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									Research
         						</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="/research-3d">3D Modeling</a>
-									<a class="dropdown-item" href="/research-cacardiac">Cardiac</a>
-									<a class="dropdown-item" href="/research-pc">Patient Care</a>
-									<a class="dropdown-item" href="/research-bb">Black Bears</a>
-									<a class="dropdown-item" href="/research-md">Medical Devices</a>
-									<a class="dropdown-item" href="/research-sm">Skeletal Muscle</a>
+								<div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<a className="dropdown-item" href="/research-3d">3D Modeling</a>
+									<a className="dropdown-item" href="/research-cacardiac">Cardiac</a>
+									<a className="dropdown-item" href="/research-pc">Patient Care</a>
+									<a className="dropdown-item" href="/research-bb">Black Bears</a>
+									<a className="dropdown-item" href="/research-md">Medical Devices</a>
+									<a className="dropdown-item" href="/research-sm">Skeletal Muscle</a>
 								</div>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/news" id="navbarDropdownMenuLink" role="button">
+							<li className="nav-item">
+								<a className="nav-link" href="/news" id="navbarDropdownMenuLink" role="button">
 									Lab News
         						</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/publications" id="navbarDropdownMenuLink" role="button">
+							<li className="nav-item">
+								<a className="nav-link" href="/publications" id="navbarDropdownMenuLink" role="button">
 									Publications
         						</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="http://www.vhlab.umn.edu/atlas/index.shtml" id="navbarDropdownMenuLink" role="button">
+							<li className="nav-item">
+								<a className="nav-link" href="http://www.vhlab.umn.edu/atlas/index.shtml" id="navbarDropdownMenuLink" role="button">
 									The Atlas
         						</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/media" id="navbarDropdownMenuLink" role="button">
+							<li className="nav-item">
+								<a className="nav-link" href="/media" id="navbarDropdownMenuLink" role="button">
 									Media
         						</a>
 							</li>	
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<li className="nav-item dropdown">
+								<a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									Contact & Directions
         						</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">					<a class="dropdown-item" href="/directions">Directions and Maps</a>
+								<div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">					<a className="dropdown-item" href="/directions">Directions and Maps</a>
 			</div>				</li>
 						</ul>
 					</div>
