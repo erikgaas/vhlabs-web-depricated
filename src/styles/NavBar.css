@@ -40,14 +40,11 @@ a:hover {
 }
 
 
-
-
-
 #navbarNavDropdown {
-	text-align: right;
 	padding-left: 80px
 }
 
 .navbar-nav {
-	padding-left: 100px
+	padding-left: 100px;
+	text-align: right;
 }

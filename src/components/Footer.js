@@ -16,22 +16,22 @@ class Footer extends Component {
 					<div className="social">
 						<span className="socialEl">
 							<SocialIcon url="https://www.facebook.com/VisibleHeartLab/" className="socicon"/>
-							<a href="https://www.facebook.com/VisibleHeartLab/"><span>Facebook</span></a>
+							<a href="https://www.facebook.com/VisibleHeartLab/" alt="Facebook Logo"><span>Facebook</span></a>
 						</span>
 
 						<span className="socialEl">
 							<SocialIcon url="https://twitter.com/VisibleHeartLab" className="socicon"/>
-							<a href="https://twitter.com/VisibleHeartLab"><span>Twitter</span></a>
+							<a href="https://twitter.com/VisibleHeartLab" alt="Twitter Logo"><span>Twitter</span></a>
 						</span>
 						<span className="socialEl">
 
 							<SocialIcon url="https://www.youtube.com/channel/UCwcaO45GJ_v-WrWXEUKCXKw" className="socicon"/>
-							<a href="https://www.youtube.com/channel/UCwcaO45GJ_v-WrWXEUKCXKw"><span>Youtube</span></a>
+							<a href="https://www.youtube.com/channel/UCwcaO45GJ_v-WrWXEUKCXKw" alt="Youtube Logo"><span>Youtube</span></a>
 						</span>
 
 						<a href="/gift">
 						<span className="socialEl">
-							<img className="gift" src={process.env.PUBLIC_URL + "/images/icons/gift.png"} width={50} />
+							<img className="gift" src={process.env.PUBLIC_URL + "/images/icons/gift.png"} width={50} alt={'Giving Hands'}/>
 							<span>Give a Gift</span>
 						</span></a>
 					</div>
@@ -48,7 +48,7 @@ class Footer extends Component {
 					  <TiArrowUpThick size={50}/>
 					</ScrollToTop>
 
-					<div class="cr">© 2017 Regents of the University of Minnesota. 
+					<div className="cr">© 2017 Regents of the University of Minnesota. 
 					All rights reserved.</div>
 				</div>
 			);

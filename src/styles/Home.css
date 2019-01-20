@@ -3,15 +3,24 @@
 }
 
 .carousel .control-dots .dot {
-    border-radius: 50%;
-    width: 15px;
-    padding-top: 15px;
+    display: none
 }
 
 .carousel .slide .legend {
     font-size: 25px;
     opacity: .8;
+    color: gold;
+    background-color: maroon
 
+}
+
+.carousel .slide {
+    background-color: maroon
+}
+
+.carousel .carousel-status {
+    background-color: maroon;
+    color: gold
 }
 
 #row1 {
@@ -33,3 +42,17 @@
     border: none
 }
 
+
+@media only screen and (max-width: 668px) {
+    #twitterDiv {
+        display: none
+    }
+
+    .card {
+        padding: 0
+    }
+
+    #row2 {
+        padding: 0
+    }
+}

@@ -11,7 +11,7 @@ class Home extends Component {
     makeElement(data) {
 		return (
 			<div key={data.img_path}>
-				<img src={process.env.PUBLIC_URL + "/images/carousel/".concat(data.img_path)} />
+				<img alt="carousel" src={process.env.PUBLIC_URL + "/images/carousel/".concat(data.img_path)} />
 				<a className="legend" href={data.link}>{data.legend}</a>
 			</div>
 		);
@@ -48,51 +48,51 @@ class Home extends Component {
 									<div className="row" id="row2">
 									
 											<div className="col-md-2">
-															<div class="card" >
+															<div className="card" >
 																<h3>Our Lab</h3>	
-																<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/ourlab3.jpg"} alt="The Atlas" />
-																<div class="card-body">
-																	<p class="card-text">Information here about The Lab</p>
+																<img className="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/ourlab3.jpg"} alt="Heart Lab" />
+																<div className="card-body">
+																	<p className="card-text">Information here about The Lab.</p>
 																</div>
 															</div>
 											</div>
 
 											<div className="col-md-2">
-													<div class="card" >
+													<div className="card" >
 														<h3>Research</h3>
-														<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/Research.jpg"} alt="Research" />
-														<div class="card-body">
-															<p class="card-text">Information here about Research.</p>
+														<img className="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/Research.jpg"} alt="Research" />
+														<div className="card-body">
+															<p className="card-text">Information here about Research.</p>
 														</div>
 													</div>
 											</div>
 
 											<div className="col-md-2">
-													<div class="card" >
+													<div className="card" >
 														<h3>Outreach</h3>
-														<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/education5.jpg"} alt="Outreach & Education" />
-														<div class="card-body">
-															<p class="card-text">Information here about Outreach and Education.</p>
+														<img className="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/education5.jpg"} alt="Outreach & Education" />
+														<div className="card-body">
+															<p className="card-text">Information here about Outreach and Education.</p>
 														</div>
 													</div>
 											</div>
 
 											<div className="col-md-2">
-													<div class="card" >
+													<div className="card" >
 														<h3>Clinical</h3>	
-														<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/mhlogo.jpg"} alt="The Atlas" />
-														<div class="card-body">
-															<p class="card-text">Information here about Clinical.</p>
+														<img className="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/mhlogo.jpg"} alt="Mhaus logo" />
+														<div className="card-body">
+															<p className="card-text">Information here about Clinical.</p>
 														</div>
 													</div>
 											</div>
 
 											<div className="col-md-2">
-													<div class="card" >
+													<div className="card" >
 														<h3>The Atlas</h3>	
-														<img class="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/Happaratus.jpg"} alt="The Atlas" />
-														<div class="card-body">
-															<p class="card-text">Information here about The Atlas.</p>
+														<img className="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/Happaratus.jpg"} alt="The Atlas" />
+														<div className="card-body">
+															<p className="card-text">Information here about The Atlas.</p>
 														</div>
 													</div>
 											</div>
