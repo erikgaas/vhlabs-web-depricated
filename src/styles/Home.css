@@ -34,7 +34,7 @@
     padding-top: 40px
 }
 
-.card {
+#homeElementCard {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -42,17 +42,72 @@
     border: none
 }
 
+/* ----------------------------------Media Queries---------------- */
 
+/* iPad Stylings */
+@media only screen and (max-width: 1030px) {
+    #homeElementCard {
+        width: 130px;
+        height: 200px;
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    #homeElementColumnFix {
+        width: 180px;
+       
+        
+    }
+
+    #row2 {
+        padding-left: 70px
+    }
+
+    #homeElementCard > h3 {
+        font-size: 25px
+    }
+
+    .card-body {
+        display: none
+    }
+    
+    #row1 {
+        height: 300px;
+        margin-bottom: 50px
+    }
+
+    .CarouselContainer {
+        margin-top: 30px;
+    }
+
+    .carousel .slide .legend {
+        font-size: 15px;
+        opacity: .8;
+    }
+}
+
+/* Phone Stylings */
 @media only screen and (max-width: 668px) {
     #twitterDiv {
         display: none
     }
 
-    .card {
-        padding: 0
+    #row1 {
+        height: 300px;
+        /* margin-bottom: 80px */
     }
 
-    #row2 {
-        padding: 0
+    .col-md-1 {
+        display: none;
+    }
+
+    .CarouselContainer {
+        margin-top: 0px;
+        padding-top: 0px
+    }
+
+    #homeElementColumnFix {
+        width: 200px
     }
 }
+

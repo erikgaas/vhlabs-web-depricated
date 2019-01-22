@@ -1,4 +1,4 @@
-.card {
+#personCard {
   width: 250px;
   height: 500px;
   margin-left: 10px;
@@ -37,7 +37,7 @@ p.card-text {
     font-size: 14px
   }
 
-  .card {
+  #personCard {
     width: 250px;
     height: 380px;
     margin-left: 10px;
