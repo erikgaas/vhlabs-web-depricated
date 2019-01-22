@@ -13,7 +13,7 @@ class PersonCard extends Component {
   render() {
     return (
       <div className="card-container">
-        <div className="card">
+        <div className="card" id="personCard">
           <div className="side">
             <Image className="card-img-top" src={process.env.PUBLIC_URL + "/images/bios/" + this.props.data.img_name} height={249} width={249} /></div>
           <div className="card-body">

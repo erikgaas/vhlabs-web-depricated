@@ -42,13 +42,13 @@ class Home extends Component {
 								options={{username:"VisibleHeartLab", width:"300px", height:"350"}}/>
 					</div>
 
-
+					</div>
 											{/* Home Element Cards */}
 
 									<div className="row" id="row2">
 									
-											<div className="col-md-2">
-															<div className="card" >
+											<div className="col-md-2" id="homeElementColumnFix">
+															<div className="card" id="homeElementCard" >
 																<h3>Our Lab</h3>	
 																<img className="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/ourlab3.jpg"} alt="Heart Lab" />
 																<div className="card-body">
@@ -57,8 +57,8 @@ class Home extends Component {
 															</div>
 											</div>
 
-											<div className="col-md-2">
-													<div className="card" >
+											<div className="col-md-2" id="homeElementColumnFix">
+													<div className="card" id="homeElementCard" >
 														<h3>Research</h3>
 														<img className="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/Research.jpg"} alt="Research" />
 														<div className="card-body">
@@ -67,8 +67,8 @@ class Home extends Component {
 													</div>
 											</div>
 
-											<div className="col-md-2">
-													<div className="card" >
+											<div className="col-md-2" id="homeElementColumnFix">
+													<div className="card" id="homeElementCard" >
 														<h3>Outreach</h3>
 														<img className="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/education5.jpg"} alt="Outreach & Education" />
 														<div className="card-body">
@@ -77,8 +77,8 @@ class Home extends Component {
 													</div>
 											</div>
 
-											<div className="col-md-2">
-													<div className="card" >
+											<div className="col-md-2" id="homeElementColumnFix">
+													<div className="card" id="homeElementCard" >
 														<h3>Clinical</h3>	
 														<img className="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/mhlogo.jpg"} alt="Mhaus logo" />
 														<div className="card-body">
@@ -87,8 +87,8 @@ class Home extends Component {
 													</div>
 											</div>
 
-											<div className="col-md-2">
-													<div className="card" >
+											<div className="col-md-2" id="homeElementColumnFix">
+													<div className="card" id="homeElementCard" >
 														<h3>The Atlas</h3>	
 														<img className="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/Happaratus.jpg"} alt="The Atlas" />
 														<div className="card-body">
@@ -100,7 +100,7 @@ class Home extends Component {
 
 
 
-</div>
+
 </div>
 
 			
