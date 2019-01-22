@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class PharmalogicalCardioprotection extends Component {
+class PharmacologicalCardioprotection extends Component {
     render() {
         return (
             <div>
@@ -25,4 +25,4 @@ class PharmalogicalCardioprotection extends Component {
     }
 }
 
-export default PharmalogicalCardioprotection;
+export default PharmacologicalCardioprotection;
