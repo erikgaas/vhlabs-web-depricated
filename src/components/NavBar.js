@@ -35,7 +35,7 @@ class NavBar extends Component {
         						</a>
 								<div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 									<a className="dropdown-item" href="/research-3d">3D Modeling</a>
-									<a className="dropdown-item" href="/research-cacardiac">Cardiac</a>
+									<a className="dropdown-item" href="/research-ca">Cardiac</a>
 									<a className="dropdown-item" href="/research-pc">Patient Care</a>
 									<a className="dropdown-item" href="/research-bb">Black Bears</a>
 									<a className="dropdown-item" href="/research-md">Medical Devices</a>

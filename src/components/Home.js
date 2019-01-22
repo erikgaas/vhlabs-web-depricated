@@ -51,7 +51,7 @@ class Home extends Component {
 															<div className="card" id="homeElementCard" >
 																<h3>Our Lab</h3>	
 																<img className="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/ourlab3.jpg"} alt="Heart Lab" />
-																<div className="card-body">
+																<div className="card-body" id="cardBodyFix">
 																	<p className="card-text">Information here about The Lab.</p>
 																</div>
 															</div>
@@ -61,7 +61,7 @@ class Home extends Component {
 													<div className="card" id="homeElementCard" >
 														<h3>Research</h3>
 														<img className="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/Research.jpg"} alt="Research" />
-														<div className="card-body">
+														<div className="card-body" id="cardBodyFix">
 															<p className="card-text">Information here about Research.</p>
 														</div>
 													</div>
@@ -71,7 +71,7 @@ class Home extends Component {
 													<div className="card" id="homeElementCard" >
 														<h3>Outreach</h3>
 														<img className="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/education5.jpg"} alt="Outreach & Education" />
-														<div className="card-body">
+														<div className="card-body" id="cardBodyFix">
 															<p className="card-text">Information here about Outreach and Education.</p>
 														</div>
 													</div>
@@ -81,7 +81,7 @@ class Home extends Component {
 													<div className="card" id="homeElementCard" >
 														<h3>Clinical</h3>	
 														<img className="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/mhlogo.jpg"} alt="Mhaus logo" />
-														<div className="card-body">
+														<div className="card-body" id="cardBodyFix">
 															<p className="card-text">Information here about Clinical.</p>
 														</div>
 													</div>
@@ -91,7 +91,7 @@ class Home extends Component {
 													<div className="card" id="homeElementCard" >
 														<h3>The Atlas</h3>	
 														<img className="card-img-top" src={process.env.PUBLIC_URL + "/images/homeelements/Happaratus.jpg"} alt="The Atlas" />
-														<div className="card-body">
+														<div className="card-body" id="cardBodyFix">
 															<p className="card-text">Information here about The Atlas.</p>
 														</div>
 													</div>

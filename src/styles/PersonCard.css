@@ -2,7 +2,16 @@
   width: 250px;
   height: 500px;
   margin-left: 10px;
-  margin-right: 10px
+  margin-right: 10px;
+  text-align: center
+}
+
+h6, h5 {
+  color:#46000E
+}
+
+.card {
+  border: none
 }
 
 .card-container {

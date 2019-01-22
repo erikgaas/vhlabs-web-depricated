@@ -32,6 +32,25 @@ import ThreeDModeling from './components/ResearchTopics/3DModeling/3DModeling.js
         import Devices from './components/ResearchTopics/3DModeling/Devices.js';
         import Education from './components/ResearchTopics/3DModeling/Education.js';
 
+import Cardiac from './components/ResearchTopics/Cardiac/Cardiac.js';
+      import CardiacPhysiology from './components/ResearchTopics/Cardiac/CardiacPhysiology.js';
+      import LargeMammalianAnatomy from './components/ResearchTopics/Cardiac/LargeMammalianAnatomy.js';
+      import IntracellularRecording from './components/ResearchTopics/Cardiac/IntracellularRecording.js';
+      import SurfaceElectromyography from './components/ResearchTopics/Cardiac/SurfaceElectromyography.js';
+      import ActionPotentialMapping from './components/ResearchTopics/Cardiac/ActionPotentialMapping.js';        
+
+import PatientCare from './components/ResearchTopics/PatientCare/PatientCare.js';
+      import ThermalManagement from './components/ResearchTopics/PatientCare/ThermalManagement.js';
+      import CerebralProtection from './components/ResearchTopics/PatientCare/CerebralProtection.js';
+      import LumbarRehab from './components/ResearchTopics/PatientCare/LumbarRehab.js';
+      import CardiacFunctionHibernation from './components/ResearchTopics/PatientCare/CardiacFunctionHibernation.js';
+
+import BlackBears from './components/ResearchTopics/BlackBears/BlackBears.js';
+      import MuscleForceAssessments from './components/ResearchTopics/BlackBears/MuscleForceAssessment.js';
+      import WoundHealing from './components/ResearchTopics/BlackBears/WoundHealing.js';
+      import PharmacologicalCardioprotection from './components/ResearchTopics/BlackBears/PharmacologicalCardioprotection.js';
+      import WoundFormation from './components/ResearchTopics/BlackBears/WoundFormation.js';
+       
 class App extends Component {
   render() {
     return (
@@ -71,6 +90,25 @@ class App extends Component {
                   <Route path="/research-3d-2" component={VirtualReality} />
                   <Route path="/research-3d-3" component={Devices} />
                   <Route path="/research-3d-4" component={Education} />
+
+          <Route path="/research-ca" component={Cardiac} />
+                  <Route path="/research-ca-1" component={CardiacPhysiology} />
+                  <Route path="/research-ca-2" component={LargeMammalianAnatomy} />
+                  <Route path="/research-ca-3" component={IntracellularRecording} />
+                  <Route path="/research-ca-4" component={SurfaceElectromyography} />
+                  <Route path="/research-ca-5" component={ActionPotentialMapping} />
+
+          <Route path="/research-pc" component={PatientCare} />
+                  <Route path="/research-pc-1" component={ThermalManagement} />
+                  <Route path="/research-pc-2" component={CerebralProtection} />
+                  <Route path="/research-pc-3" component={LumbarRehab} />
+                  <Route path="/research-pc-4" component={CardiacFunctionHibernation} />
+
+           <Route path="/research-bb" component={BlackBears} />
+                  <Route path="/research-bb-1" component={MuscleForceAssessments} />
+                  <Route path="/research-bb-2" component={WoundHealing} />
+                  <Route path="/research-bb-3" component={PharmacologicalCardioprotection} />
+                  <Route path="/research-bb-4" component={WoundFormation} />
           <Footer />
         </div>
 
