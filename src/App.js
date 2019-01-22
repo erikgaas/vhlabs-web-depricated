@@ -51,6 +51,17 @@ import BlackBears from './components/ResearchTopics/BlackBears/BlackBears.js';
       import PharmacologicalCardioprotection from './components/ResearchTopics/BlackBears/PharmacologicalCardioprotection.js';
       import WoundFormation from './components/ResearchTopics/BlackBears/WoundFormation.js';
        
+import MedicalDevices from './components/ResearchTopics/MedicalDevices/MedicalDevices.js';
+      import CardiacDevices from './components/ResearchTopics/MedicalDevices/CardiacDevices.js';
+      import VisibleHeart from './components/ResearchTopics/MedicalDevices/VisibleHeart.js';
+      import Electrophysiology from './components/ResearchTopics/MedicalDevices/Electrophysiology.js';
+
+import SkeletalMuscle from './components/ResearchTopics/SkeletalMuscle/SkeletalMuscle';
+      import AnestheticComplications from './components/ResearchTopics/SkeletalMuscle/AnestheticComplications.js';
+      import StimulatedMuscleForce from './components/ResearchTopics/SkeletalMuscle/StimulatedMuscleForce.js';
+      import HypoxicDamage from './components/ResearchTopics/SkeletalMuscle/HypoxicDamage.js';
+      import DoxorubicinChemomyectomy from './components/ResearchTopics/SkeletalMuscle/DoxorubicinChemomyectomy.js';
+      
 class App extends Component {
   render() {
     return (
@@ -109,6 +120,17 @@ class App extends Component {
                   <Route path="/research-bb-2" component={WoundHealing} />
                   <Route path="/research-bb-3" component={PharmacologicalCardioprotection} />
                   <Route path="/research-bb-4" component={WoundFormation} />
+          
+          <Route path="/research-md" component={MedicalDevices} />
+                  <Route path="/research-md-1" component={CardiacDevices} />
+                  <Route path="/research-md-2" component={VisibleHeart} />
+                  <Route path="/research-md-3" component={Electrophysiology} />
+
+          <Route path="/research-sm" component={SkeletalMuscle} />
+                  <Route path="/research-sm-1" component={AnestheticComplications} />
+                  <Route path="/research-sm-2" component={StimulatedMuscleForce} />
+                  <Route path="/research-sm-3" component={HypoxicDamage} />
+                  <Route path="/research-sm-4" component={DoxorubicinChemomyectomy} />
           <Footer />
         </div>
 
