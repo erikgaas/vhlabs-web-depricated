@@ -5,7 +5,7 @@ class PatientCare extends Component {
     render() {
         return (
             <div>
-            <h2>Research > Patient Care</h2>
+            <h2><a href="/research" className="researchSubPageBreadcrumb">Research</a> > <a href="/research-pc" className="researchSubPageBreadcrumb">Patient Care</a></h2>
                 <div id="researchTopicContainer">
                     <h3 id="researchTopicComponentMain"><a href="/research-pc-1" id="researchTopicATag">Thermal Management of the Surgical Patient</a></h3>
                     <h3 id="researchTopicComponentMain"><a href="/research-pc-2" id="researchTopicATag">Cerebral protection using mild hypothermia</a></h3> 

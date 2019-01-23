@@ -5,7 +5,7 @@ class ThreeDModeling extends Component {
     render() {
         return (
             <div>
-                <h2>Research > 3D Modeling</h2>
+                <h2><a href="/research" className="researchSubPageBreadcrumb">Research</a> > <a href="/research-3d" className="researchSubPageBreadcrumb">3D Modeling</a></h2>
                 <div id="researchTopicContainer">
                     <h3 id="researchTopicComponentMain"><a href="/research-3d-1" id="researchTopicATag">CarePrints</a></h3>
                     <h3 id="researchTopicComponentMain"><a href="/research-3d-2" id="researchTopicATag">Virtual Reality</a></h3> 

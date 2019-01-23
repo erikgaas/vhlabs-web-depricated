@@ -5,7 +5,7 @@ class Cardiac extends Component {
     render() {
         return (
         <div>
-            <h2>Research > Cardiac</h2>
+            <h2><a href="/research" className="researchSubPageBreadcrumb">Research</a> > <a href="/research-ca" className="researchSubPageBreadcrumb">Cardiac</a></h2>
         
             <div id="researchTopicContainer">
                <h3 id="researchTopicComponentMain"><a href="/research-ca-1" id="researchTopicATag">Cardiac physiology (functional assessment)</a></h3>

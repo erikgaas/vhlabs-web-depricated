@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles/Research.css';
 
 class Research extends Component {
 	render() {
@@ -9,37 +10,50 @@ class Research extends Component {
 
 					<div className="row">
 						<div className="col-md-3">
-							<a href="research/3dmodeling">
+							<a href="research-3d">
 								<img src={'../images/research/icon3d.jpg'} height={250} width={250} alt={'3D Heart'}/>
 								<h3>3D Modeling</h3>
 							</a>
-								</div>
-							<div className="col-md-3">
+						</div>
+
+						<div className="col-md-3">
+							<a href="research-ca">
 								<img src={'../images/research/iconcardiac.jpg'} height={250} width={250} alt={'Open Heart'}/>
 								<h3>Cardiac</h3>
-							</div>
+							</a>
+						</div>
 
-							<div className="col-md-3">
+						<div className="col-md-3">
+							<a href="research-pc">
 								<img src={'../images/research/iconhealth.jpg'} height={250} width={250} alt={'Testing Equipment'}/>
 								<h3>Patient Care</h3>
-							</div>
-							</div>
-						<div className="row">
-							<div className="col-md-3">
-									<img src={'../images/research/iconbear.jpg'} height={250} width={250} alt={'Black Bear Mom & Cub'}/>
-									<h3>Black Bears</h3>
-								</div>
+							</a>
+						</div>
+					</div>
 
-							<div className="col-md-3">
+
+					<div className="row">
+						<div className="col-md-3">
+							<a href="research-bb">
+								<img src={'../images/research/iconbear.jpg'} height={250} width={250} alt={'Black Bear Mom & Cub'}/>
+								<h3>Black Bears</h3>
+							</a>
+						</div>
+
+						<div className="col-md-3">
+							<a href="research-md">
 								<img src={'../images/research/icondevice.jpg'} height={250} width={250} alt={'Heart Monitor & Heart Model'}/>
 								<h3>Medical Devices</h3>
-							</div>
+							</a>
+						</div>
 
-							<div className="col-md-3">
+						<div className="col-md-3">
+							<a href="research-sm">
 								<img src={'../images/research/iconsm.png'} height={250} width={250} alt={'Muscle Testing Equipment'}/>
 								<h3>Skeletal Muscle</h3>
-							</div>
+							</a>
 						</div>
+					</div>
 				</div>
 			);
 	}

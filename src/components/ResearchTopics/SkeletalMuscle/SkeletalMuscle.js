@@ -5,7 +5,7 @@ class SkeletalMuscle extends Component {
     render() {
         return (
             <div>
-            <h2>Research > Skeletal Muscle</h2>
+            <h2><a href="/research" className="researchSubPageBreadcrumb">Research</a> > <a href="/research-sm" className="researchSubPageBreadcrumb">Skeletal Muscle</a></h2>
                 <div id="researchTopicContainer">
                     <h3 id="researchTopicComponentMain"><a href="/research-sm-1" id="researchTopicATag">Anesthetic complications in muscular disorders</a></h3>
                     <h3 id="researchTopicComponentMain"><a href="/research-sm-2" id="researchTopicATag">Stimulated Muscle Force Measurements in Neuromuscular Diseases</a></h3> 
