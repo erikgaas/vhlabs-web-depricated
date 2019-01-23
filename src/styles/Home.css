@@ -42,6 +42,22 @@
     border: none
 }
 
+#lastElementCard {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: center;
+    border: none
+}
+
+#homeElementLink {
+    text-decoration: none
+}
+
+#homeElementLink:hover {
+    background-color: inherit
+}
+
 /* ----------------------------------Media Queries---------------- */
 
 /* iPad Stylings */
@@ -53,17 +69,22 @@
         padding-right: 10px
     }
 
+    #lastElementCard {
+        width: 130px;
+        height: 200px;
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
     #homeElementColumnFix {
-        width: 180px;
-       
-        
+        width: 180px; 
     }
 
     #row2 {
         padding-left: 70px
     }
 
-    #homeElementCard > h3 {
+    #homeElementLink > h3 {
         font-size: 25px
     }
 
@@ -93,8 +114,12 @@
     }
 
     #row1 {
-        height: 300px;
+        height: 200px;
         /* margin-bottom: 80px */
+    }
+
+    #row2 {
+        padding-left: 50px
     }
 
     .col-md-1 {
@@ -106,8 +131,15 @@
         padding-top: 0px
     }
 
-    #homeElementColumnFix {
-        width: 200px
+    #lastElementCard {
+        width: 130px;
+        height: 200px;
+        margin-left: 80px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        text-align: center;
+        border: none
     }
 }
 
