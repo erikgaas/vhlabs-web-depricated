@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-// import CarePrints from 'CarePrints.js';
-// import Devices from 'Devices.js';
-// import Education from 'Education.js';
-// import VirtualReality from 'VirtualReality.js';
+import '../../../styles/ResearchTopics.css';
 
 class SkeletalMuscle extends Component {
     render() {
         return (
             <div>
-               <h3><a href="/research-sm-1">Anesthetic complications in muscular disorders</a></h3>
-               <h3><a href="/research-sm-2">Stimulated Muscle Force Measurements in Neuromuscular Diseases</a></h3> 
-               <h3><a href="/research-sm-3">Prevention of hypoxic damage using opioid agonists</a></h3>  
-               <h3><a href="/research-sm-4">Doxorubicin Chemomyectomy</a></h3> 
+            <h2>Research > Skeletal Muscle</h2>
+                <div id="researchTopicContainer">
+                    <h3 id="researchTopicComponentMain"><a href="/research-sm-1" id="researchTopicATag">Anesthetic complications in muscular disorders</a></h3>
+                    <h3 id="researchTopicComponentMain"><a href="/research-sm-2" id="researchTopicATag">Stimulated Muscle Force Measurements in Neuromuscular Diseases</a></h3> 
+                    <h3 id="researchTopicComponentMain"><a href="/research-sm-3" id="researchTopicATag">Prevention of hypoxic damage using opioid agonists</a></h3>  
+                    <h3 id="researchTopicComponentMainLast"><a href="/research-sm-4" id="researchTopicATag">Doxorubicin Chemomyectomy</a></h3> 
+                </div>
             </div>
         );
     }
