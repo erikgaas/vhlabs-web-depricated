@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-// import mdrePrints from 'mdrePrints.js';
-// import Devices from 'Devices.js';
-// import Edumdtion from 'Edumdtion.js';
-// import VirtualReality from 'VirtualReality.js';
+import '../../../styles/ResearchTopics.css';
 
 class MedicalDevices extends Component {
     render() {
         return (
             <div>
-               <h3><a href="/research-md-1">Cardiac Devices, Testing, and Design</a></h3>
-               <h3><a href="/research-md-2">Visible Heart®: Functional Cardiac Anatomy using a 4-chamber Isolated Heart Preparation of Various Large Mammalians including Human Hearts</a></h3> 
-               <h3><a href="/research-md-3">Electrophysiology, Surface, and Noncontact Mapping</a></h3>  
+                <h2>Research > Medical Devices</h2>
+                <div id="researchTopicContainer">
+                    <h3 id="researchTopicComponentMain"><a href="/research-md-1" id="researchTopicATag">Cardiac Devices, Testing, and Design</a></h3>
+                    <h3 id="researchTopicComponentMain"><a href="/research-md-2" id="researchTopicATag">Visible Heart®: Functional Cardiac Anatomy using a 4-chamber Isolated Heart Preparation of Various Large Mammalians including Human Hearts</a></h3> 
+                    <h3 id="researchTopicComponentMainLast"><a href="/research-md-3" id="researchTopicATag">Electrophysiology, Surface, and Noncontact Mapping</a></h3>  
+                </div>
             </div>
         );
     }
