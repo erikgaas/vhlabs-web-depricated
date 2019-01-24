@@ -39,10 +39,14 @@ class News extends Component {
 	}
 	render() {
 		// let filteredNews = this.props.newsList;
-				newsList.sort(function(a, b) {
-					var dateA = new Date(a.date), dateB = new Date(b.date);
-					return dateB - dateA;
-				});
+				// newsList.sort(function(a, b) {
+				// 	var dateA = new Date(a.date), dateB = new Date(b.date);
+				// 	return dateB - dateA;
+				// });
+
+				newsList.sort(function(a,b){
+					return (b.date > a.date) ? 1 : (b.date < a.date) ? -1 : 0;
+				  });
 
 				let filteredNews = newsList.filter((newsItem) => {
 					return newsItem.description.toLowerCase().includes(this.state.search.toLowerCase())
