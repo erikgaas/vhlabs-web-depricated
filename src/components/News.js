@@ -65,8 +65,8 @@ class News extends Component {
 							<p>{newsItem.more}</p>
 						</div>
 					
-						<div className='col-md-1'></div>
-						<div classname='col-md-2'>
+						<div className='col-md-1' id="hideDiv"></div>
+						<div classname='col-md-2' id="alterImage">
 							<ImageComponent img={newsItem.img}></ImageComponent></div>
 					</div>
 				</div>
@@ -76,16 +76,18 @@ class News extends Component {
 		return (
 			
 				<div className='container'>
-					<div>
+					
 						<div className='pageTitle'><h1>Lab News</h1></div>
+						<div>
+							<p id="searchbox-container"> Search the News: 
 
-						<p id="searchbox-container"> Search the News: 
-
-						<input id="searchbox" type="text" value={this.state.search} onChange={this.updateSearch.bind(this)} />
-						</p>
-				</div>
+							<input id="searchbox" type="text" value={this.state.search} onChange={this.updateSearch.bind(this)} />
+							</p>
+						</div>
 				
-				<div>
+						<div>
+							<br></br>
+							<br></br>
 					 <div>{news}</div>
 					 <button className='loadMore' onClick={this.onLoadMore}>Load More</button>
 				</div>

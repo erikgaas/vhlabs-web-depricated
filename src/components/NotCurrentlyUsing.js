@@ -19,7 +19,22 @@
 // 				});
             
 
+	// function findBySearch(searchTerm) {
 
+		// 	searchTerm.includes(this.state.searchTerm.toLowerCase())
+		// 	// return filteredOArt
+		// }
+	
+		//  let filteredArticles = allData.pickBy(
+		// 	object, findBySearch(this.searchTerm))
+
+		// return filteredArticles;
+	
+		// Array.prototype.slice(allData).sort(function(a, b) {
+		// 	var dateA = new Date(a.date), dateB = new Date(b.date);
+		// 	return dateB - dateA;
+			
+		// });
 
 
 
