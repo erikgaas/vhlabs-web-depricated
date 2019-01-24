@@ -5,7 +5,7 @@ class Collaborators extends Component {
 	render() {
 		return (
 				<div className='container'>
-					<h1>COLLABORATORS</h1>
+					<h1>Collaborators</h1>
 					<h4>University of Minnesota Collaborators</h4>
 						<p><strong>Dr. Greg Beilman</strong>, Department of Surgery: Force assessment in the ICU and the induction of mild hypothermia in the fibrile patient. </p>
 						<p><strong>Dr. John Bischof</strong>, Departments of Urological Surgery and Mechanical Engineering: Ablation therapies and cellular thermal injury.</p>

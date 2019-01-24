@@ -5,7 +5,7 @@ class Affiliations extends Component {
 	render() {
 		return (
 				<div className='container'>
-				<h1>AFFILIATIONS</h1>
+				<h1>Affiliations</h1>
 					<h4>University of Minnesota Affiliations</h4>
 					<ul>
 						<p><a href="https://carlsonschool.umn.edu/" target="_blank" rel="noopener noreferrer">Carlson School of Management</a></p>

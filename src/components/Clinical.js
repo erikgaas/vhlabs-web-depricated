@@ -5,7 +5,8 @@ class Clinical extends Component {
 	render() {
 		return (
 				<div className='container'>
-					<h4>Malignant Hyperthermia Diagnostic Center</h4>
+				<h1>Clinical</h1>
+					<h4 id="clinicalHeaders">Malignant Hyperthermia Diagnostic Center</h4>
 						<p>For detailed information about malignant hyperthermia and its diagnosis, please visit the <a href="https://www.mhaus.org/" >Malignant Hyperthermia Association of the United States web site</a>.</p>
 						<p>The Malignant Hyperthermia Muscle Biopsy Center at the University of Minnesota is aligned with the Paul and Sheila Wellstone Muscular Dystrophy Center. We are located in B111 Mayo Building on the east bank of University of Minnesota campus. Our center performed its first diagnostic biopsy in February of 1992. To date (2-8-18), in vitro contracture testing has been performed on muscle biopsies from 134 patients and 36 normal control subjects.</p>
 
@@ -26,7 +27,7 @@ class Clinical extends Component {
 							Thomas Kozhimannil, MD</p>
 							<p>(Contact Paul A. Iaizzo, PhD, FHRS, John Capacchione (612-624-9990), or Allison Weyer (612-624-3959) for general information on malignant hyperthermia and the in vitro contracture test)</p>
 
-					<h4>Policy and Procedure</h4>
+					<h4 id="clinicalHeaders">Policy and Procedure</h4>
 						<p>An in vitro contracture test for the determination of susceptibility to malignant hyperthermia (MH) will be performed on patients who are viable candidates for testing, and have either agreed to pay for the procedure or have obtained prior approval for the procedure from their insurance companies. Our laboratory is a member of the North American Malignant Hyperthermia Registry.</p>
 						<br></br>
 						<p>The procedure consists of the following:</p>
@@ -105,13 +106,13 @@ class Clinical extends Component {
 								<br></br>
 								Tel: 800-454-8155
 								</p>
-						<h4>Malignant Hyperthermia Research</h4>
+						<h4 id="clinicalHeaders">Malignant Hyperthermia Research</h4>
 							<p>Anesthetic complications in muscle disorders: using animal models for muscle disease to identify sensitivity and specificity of the malignant hyperthermia in vitro contracture test.</p>
 
 							<p>Mechanism of action of succinylcholine-induced hypotension and/or malignant hyperthermia in susceptible swine.</p>
 
 							<p>Relative potency of sevoflurane vs. halothane to trigger malignant hyperthermia (in situ and in vitro studies).</p>
-						<h4>Publications Related to Malignant Hyperthermia</h4>
+						<h4 id="clinicalHeaders">Publications Related to Malignant Hyperthermia</h4>
 							<p>Larach MG, Brandom BW, Allen GC, Gronert GA, Lehman EB: Cardiac arrests and deaths associated with malignant hyperthermia in North America from 1987 to 2006: A report from the North American Malignant Hyperthermia Registry of the Malignant Hyperthermia Association of the United States. Anesthesiology 108:603-11, 2008</p>
 							<p>Iaizzo PA: Malignant hyperthermia: blood and blood flow. In: Malignant Hyperthermia, Schulte am Esch J, Scholz J, Wappler F (eds.), Pabst Science Publishers, pages 148-153, 2000</p>
 							<p>Sigg DC, Iaizzo PA: Malignant hyperthermia phenotype: hypotension induced by succinylcholine in susceptible swine. Anesthesiology 92: 1777-1788, 2000</p>

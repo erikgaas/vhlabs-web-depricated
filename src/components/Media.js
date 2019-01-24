@@ -49,7 +49,7 @@ class Media extends Component {
 		})
 		return (
 				<div className='container'>
-					<h1>MEDIA</h1>
+					<h1>Media</h1>
 					{media}
 					<button className='loadMore' onClick={this.onLoadMore}>Load More</button>
 				</div>
