@@ -6,9 +6,7 @@ import TiArrowUpThick from 'react-icons/lib/ti/arrow-up-thick';
 
 class Footer extends Component {
 	render() {
-		const cr = "© 2017 Regents of the University of Minnesota. \
-					All rights reserved. The University of Minnesota is an equal opportunity educator and employer.";
-
+		
 		return (
 				<div className='FootContainer'>
 
@@ -48,7 +46,7 @@ class Footer extends Component {
 					  <TiArrowUpThick size={50}/>
 					</ScrollToTop>
 
-					<div className="cr">© 2017 Regents of the University of Minnesota. 
+					<div className="cr">© 2019 Regents of the University of Minnesota. 
 					All rights reserved.</div>
 				</div>
 			);
