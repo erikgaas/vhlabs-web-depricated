@@ -58,7 +58,7 @@ class News extends Component {
 					<div className='row'>
 						<div className="col-md-9">
 							<p><strong>
-							{moment(newsItem.date).format("LL")}
+							{moment(newsItem.date, "LL").format("LL")}
 							</strong><br></br>
 							{newsItem.description}
 							</p>
