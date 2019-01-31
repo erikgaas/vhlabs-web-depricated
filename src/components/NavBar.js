@@ -7,7 +7,7 @@ class NavBar extends Component {
 		return (
 			<div className='NavBar'> 
 				<nav className="navbar navbar-expand-xl navbar-light ">
-				<span><a className="navbar-brand" href="/">The <span className="vhColor">Visible Heart®</span> Laboratory</a> | <a className="navbar-brand" href="https://www.surgery.umn.edu/">Department of Surgery</a></span>
+				<span><a className="navbar-brand" href="/">Visible Heart® Laboratories</a> | <a className="navbar-brand" href="https://www.surgery.umn.edu/">Department of Surgery</a></span>
 					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 						<span className="navbar-toggler-icon"></span>
 					</button>
