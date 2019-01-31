@@ -9,6 +9,7 @@ import invitedArticlesJSON from "../json/Publications/invitedArticles.json";
 import lettEditorJSON from "../json/Publications/letterstoEdi.json";
 import educationalMaterialsJSON from "../json/Publications/educationalMaterials.json";
 
+var moment = require('moment');
 
 const origArt = originalArticlesJSON["articles"];
 const reviewArti = reviewArticlesJSON["articles"];
@@ -55,6 +56,8 @@ class Publications extends Component {
 		// 					</div>
 		// 	})
 
+		{moment(origArt.date, "LL").format("LL")}
+
 		// console.log(filteredMap);
 
 					// newsList.sort(function(a, b) {
@@ -65,6 +68,11 @@ class Publications extends Component {
 									var dateA = new Date(a.date), dateB = new Date(b.date);
 									return dateB - dateA;
 								});
+								
+					// origArt.sort(function(a,b){
+					// 				return (b.date > a.date) ? 1 : (b.date < a.date) ? -1 : 0;
+					// 			  });
+					
 
 					reviewArti.sort(function(a, b) {
 									var dateA = new Date(a.date), dateB = new Date(b.date);
@@ -97,47 +105,79 @@ class Publications extends Component {
 
 	//-----------------------All Filtered Functions-----------		
 				let filteredOArt = origArt.filter((origAItem) => {
-					return origAItem.authors.toLowerCase().includes(this.state.search.toLowerCase())
+					return (
+						(origAItem.authors.toLowerCase().includes(this.state.search.toLowerCase()) ||
+						 origAItem.description.toLowerCase().includes(this.state.search.toLowerCase()))
+					)
 				});
+				
 				const originalArticles = filteredOArt.map((origAItem, index) => {
 					return <div className='origAContainer' key={index}><li><h5>{origAItem.authors} {origAItem.description} <i>{origAItem.journal}</i> {origAItem.date} {origAItem.journalID}</h5></li></div>
 				});
 			
+
+
 	
+
 				let filteredRArt = reviewArti.filter((revAItem) => {
-					return revAItem.authors.toLowerCase().includes(this.state.search.toLowerCase())
+					return (
+						(revAItem.authors.toLowerCase().includes(this.state.search.toLowerCase()) || 
+						 revAItem.description.toLowerCase().includes(this.state.search.toLowerCase()))
+					)
 				});
+
 				const reviewA = filteredRArt.map((revAItem, index) => {
 					return <div className='revAContainer' key={index}><li><h5>{revAItem.authors} {revAItem.description} <i>{revAItem.publisher}</i>{revAItem.date}</h5></li></div>
 				});
 	
+
+
 	
 				let filteredBooks = books.filter((bookItem) => {
-					return bookItem.authors.toLowerCase().includes(this.state.search.toLowerCase())
+					return (
+						(bookItem.authors.toLowerCase().includes(this.state.search.toLowerCase()) || 
+						 bookItem.description.toLowerCase().includes(this.state.search.toLowerCase()))
+					)
 				});
+
 				const booksEdited = filteredBooks.map((bookItem, index) => {
 					return <div className='booksContainer' key={index}><li><h5>{bookItem.authors} {bookItem.description} <span id="underlineThis">{bookItem.publisher}</span> {bookItem.date}</h5></li></div>
 				});
 	
+
+
 	
 				let filteredBookCh = bookCh.filter((bookChItem) => {
-					return bookChItem.authors.toLowerCase().includes(this.state.search.toLowerCase())
+					return (
+						(bookChItem.authors.toLowerCase().includes(this.state.search.toLowerCase()) ||
+						 bookChItem.description.toLowerCase().includes(this.state.search.toLowerCase()))
+					)
 				});
 				const bookChEdited = filteredBookCh.map((bookChItem, index) => {
 					return <div className='bookChContainer' key={index}><li><h5>{bookChItem.authors} {bookChItem.description} {bookChItem.publisher} {bookChItem.date}</h5></li></div>
 				});
 	
 	
+
+
 				let filteredInviA = invitedArt.filter((invAItem) => {
-					return invAItem.authors.toLowerCase().includes(this.state.search.toLowerCase())
+					return (
+						(invAItem.authors.toLowerCase().includes(this.state.search.toLowerCase()) || 
+						 invAItem.description.toLowerCase().includes(this.state.search.toLowerCase()))
+					)
 				});
 				const invitedA = filteredInviA.map((invAItem, index) => {
 					return <div className='invAContainer' key={index}><li><h5>{invAItem.authors} {invAItem.description} {invAItem.publisher} {invAItem.date}</h5></li></div>
 				});
 	
 	
+
+
 				let filteredLetEd = letEd.filter((letEdItem) => {
-					return letEdItem.authors.toLowerCase().includes(this.state.search.toLowerCase())
+					return (
+						(letEdItem.authors.toLowerCase().includes(this.state.search.toLowerCase()) || 
+						 letEdItem.description.toLowerCase().includes(this.state.search.toLowerCase()))
+					)
 				});
 				const lettersEd = filteredLetEd.map((letEdItem, index) => {
 					return <div className='letEdContainer' key={index}><li><h5>{letEdItem.authors} {letEdItem.description} {letEdItem.type} {letEdItem.date}</h5></li></div>
@@ -145,7 +185,10 @@ class Publications extends Component {
 	
 	
 				let filteredEduMat = eduMat.filter((eduMatItem) => {
-					return eduMatItem.authors.toLowerCase().includes(this.state.search.toLowerCase())
+					return (
+						(eduMatItem.authors.toLowerCase().includes(this.state.search.toLowerCase()) || 
+						 eduMatItem.description.toLowerCase().includes(this.state.search.toLowerCase()))
+					)
 				});
 				const eduMaterials = filteredEduMat.map((eduMatItem, index) => {
 					return <div className='eduMatContainer' key={index}><li><h5>{eduMatItem.authors} {eduMatItem.description} {eduMatItem.publisher} {eduMatItem.date}</h5></li></div>
