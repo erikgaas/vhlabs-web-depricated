@@ -20,7 +20,7 @@ class News extends Component {
 			search: '',
 			limitTo: 5
 		};
-		this.onLoadMore = this.onLoadMore.bind(this);
+			this.onLoadMore = this.onLoadMore.bind(this) 
 	}
 
 	onLoadMore () {
@@ -33,31 +33,7 @@ class News extends Component {
 		this.setState({ search: event.target.value }) 
 	}
 
-	
-	// function(){
-    //     var {newsList} = this.props;
-    //     return(
-    //         <div>
-    //             {this.renderTodos()}
-    //             <br/>
-    //            {newsList.length > 5 && this.state.limit < this.props.newsList.length ? <a className="button" onClick={this.onLoadMore}>Load More</a>:null }
-    //         </div>
-    //     )
-	// }
-	
-	// {
-	// 	todos.length > 5 && this.state.limit < this.props.todos.length ?  
-	// 		<a
-	// 			className="button" 
-	// 			onClick={this.onLoadMore}
-	// 		>
-	// 			Load More
-	// 		</a>
-	// 	:null 
-	// }
 	render() {
-		// let filteredNews = this.props.newsList;
-
 				newsList.sort(function(a, b) {
 						var dateA = new Date(a.date), dateB = new Date(b.date);
 						console.log(dateB);
@@ -67,9 +43,6 @@ class News extends Component {
 
 				let filteredNews = newsList.filter((newsItem) => {
 					return newsItem.description.toLowerCase().includes(this.state.search.toLowerCase())
-					// else return
-					// 	   newsItem.date.toLowerCase().includes(this.state.search.toLowerCase())
-
 					}
 				);
 	
@@ -95,7 +68,6 @@ class News extends Component {
 				
 			
 		return (
-			
 				<div className='container'>
 					
 						<div className='pageTitle'><h1>Lab News</h1></div>
@@ -110,7 +82,7 @@ class News extends Component {
 							<br></br>
 							<br></br>
 					 <div>{news}</div>
-					 <button className='loadMore' onClick={this.onLoadMore}>Load More</button>
+					 <button style={{ display: this.state.limitTo >= newsList.length ? 'none' : 'block' }}className='loadMore' onClick={this.onLoadMore}>Load More</button>
 				</div>
 				</div>
 			);
