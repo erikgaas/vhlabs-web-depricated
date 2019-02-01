@@ -7,11 +7,6 @@ var moment = require('moment');
 
 const newsList = labNewsJson['news'];
 
-// function swipe() {
-// var url=ImageComponent.data('src')
-// window.open(url,'Image');
-//  }
-
 const ImageComponent = ({ children, img }) => img ? (
 	<Image src={process.env.PUBLIC_URL + "/images/" + img} height={125} width={125}>
 	  {children}
@@ -65,7 +60,9 @@ class News extends Component {
 
 				newsList.sort(function(a, b) {
 						var dateA = new Date(a.date), dateB = new Date(b.date);
+						console.log(dateB);
 						return dateB - dateA;
+						
 					});
 
 				let filteredNews = newsList.filter((newsItem) => {
@@ -82,7 +79,7 @@ class News extends Component {
 					<div className='row'>
 						<div className="col-md-9">
 							<p><strong>
-							{moment(newsItem.date, "MMMM YYYY").format("MMMM YYYY")}
+							{moment(newsItem.date).format("MMMM YYYY")} 
 							</strong><br></br>
 							{newsItem.description}
 							</p>
