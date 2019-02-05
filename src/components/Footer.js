@@ -46,8 +46,6 @@ class Footer extends Component {
 					  <TiArrowUpThick size={50}/>
 					</ScrollToTop>
 
-					<div className="cr">© 2019 Regents of the University of Minnesota. 
-					All rights reserved.</div>
 				</div>
 			);
 	}

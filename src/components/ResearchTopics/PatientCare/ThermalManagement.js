@@ -4,7 +4,7 @@ import '../../../styles/ResearchSubpages.css';
 class ThermalManagement extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <h2><a href="/research" className="researchSubPageBreadcrumb"> Research</a> > <a href="/research-pc" className="researchSubPageBreadcrumb">Patient Care</a></h2>
                 <div className="subpageContainer">
                     <h5 className="subpageTitle">Thermal Management of the Surgical Patient</h5>

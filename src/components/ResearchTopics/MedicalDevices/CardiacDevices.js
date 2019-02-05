@@ -4,7 +4,7 @@ import '../../../styles/ResearchSubpages.css';
 class CardiacDevices extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <h2><a href="/research" className="researchSubPageBreadcrumb"> Research</a> > <a href="/research-md" className="researchSubPageBreadcrumb">Medical Devices</a></h2>
                 <div className="subpageContainer">
                     <h5 className="subpageTitle">Cardiac Devices, Testing, and Design</h5>

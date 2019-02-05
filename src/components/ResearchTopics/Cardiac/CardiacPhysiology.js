@@ -4,7 +4,7 @@ import '../../../styles/ResearchSubpages.css';
 class CardiacPhysiology extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <h2><a href="/research" className="researchSubPageBreadcrumb"> Research</a> > <a href="/research-ca" className="researchSubPageBreadcrumb">Cardiac</a></h2>
                 <div className="subpageContainer">
                     <h5 className="subpageTitle">Cardiac Physiology (functional assessment)</h5>

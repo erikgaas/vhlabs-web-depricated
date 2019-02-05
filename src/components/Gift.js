@@ -35,7 +35,7 @@ class Gift extends Component {
 					</div>
 
 					<div className='mailGift'>
-						<h3 className='giftText' id='mail'>Gift by Mail</h3>
+						<h3 className='giftText' id='mail'>Gift by Mail:</h3>
 						
 						<p className='mailingAddress'>To pay by check, mail to: <br></br>
 							University of Minnesota Foundation<br></br>
@@ -44,7 +44,7 @@ class Gift extends Component {
 					</div>
 
 					<div className='phoneGift'>
-						<h3 className='giftText' id='phone'>Gift by Phone</h3>
+						<h3 className='giftText' id='phone'>Gift by Phone:</h3>
 						<p className='phoneNumber'>To pay by phone with a credit card: <br></br>
 							Call 800-775-2187 or 612-624-3333.</p>
 					</div>

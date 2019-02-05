@@ -48,3 +48,11 @@ a:hover {
 	padding-left: 100px;
 	text-align: right;
 }
+
+#pageTitle {
+	font-size: 26px
+}
+
+#surgeryTitle {
+	font-size: 16px
+}

@@ -4,7 +4,7 @@ import '../../../styles/ResearchSubpages.css';
 class ActionPotentialMapping extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <h2><a href="/research" className="researchSubPageBreadcrumb"> Research</a> > <a href="/research-ca" className="researchSubPageBreadcrumb">Cardiac</a></h2>
                 <div className="subpageContainer">
                     <h5 className="subpageTitle">Action Potential Mapping</h5>
