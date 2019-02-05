@@ -3,7 +3,7 @@
 }
 
 .giftText {
-    font-size: 35px;
+    font-size: 25px;
     color: #46000E
 }
 
@@ -12,7 +12,11 @@
 }
 
 .mailingAddress, .phoneNumber {
-    font-size: 25px
+    font-size: 20px
+}
+
+.iconGiftPage {
+    width: 180px
 }
 
 /* ------------------------Media Queries------------ */

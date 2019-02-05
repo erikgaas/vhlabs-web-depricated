@@ -4,7 +4,7 @@ import '../../../styles/ResearchSubpages.css';
 class VisibleHeart extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <h2><a href="/research" className="researchSubPageBreadcrumb"> Research</a> > <a href="/research-md" className="researchSubPageBreadcrumb">Medical Devices</a></h2>
                 <div className="subpageContainer">
                     <h5 className="subpageTitle">Visible Heart®: Functional Cardiac Anatomy using a 4-chamber Isolated Heart Preparation of Various Large Mammalians including Human Hearts</h5>

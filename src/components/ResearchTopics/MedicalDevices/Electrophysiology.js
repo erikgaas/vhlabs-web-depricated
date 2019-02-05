@@ -4,7 +4,7 @@ import '../../../styles/ResearchSubpages.css';
 class Electrophysiology extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <h2><a href="/research" className="researchSubPageBreadcrumb"> Research</a> > <a href="/research-md" className="researchSubPageBreadcrumb">Medical Devices</a></h2>
                 <div className="subpageContainer">
                     <h5 className="subpageTitle">Electrophysiology, Surface, and Noncontact Mapping</h5>

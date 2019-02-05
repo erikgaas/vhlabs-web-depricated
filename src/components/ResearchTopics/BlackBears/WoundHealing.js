@@ -4,7 +4,7 @@ import '../../../styles/ResearchSubpages.css';
 class WoundHealing extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <h2><a href="/research" className="researchSubPageBreadcrumb"> Research</a> > <a href="/research-bb" className="researchSubPageBreadcrumb">Black Bears</a></h2>
                 <div className="subpageContainer">
                     <h5 className="subpageTitle">Wound Healing during Hibernation</h5>

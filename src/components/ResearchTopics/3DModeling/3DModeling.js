@@ -4,8 +4,8 @@ import '../../../styles/ResearchTopics.css';
 class ThreeDModeling extends Component {
     render() {
         return (
-            <div>
-                <h2><a href="/research" className="researchSubPageBreadcrumb">Research</a> > <a href="/research-3d" className="researchSubPageBreadcrumb">3D Modeling</a></h2>
+            <div className='container'>
+                <h1 id="header"><a href="/research" className="researchSubPageBreadcrumb">Research</a> > <a href="/research-3d" className="researchSubPageBreadcrumb">3D Modeling</a></h1>
                 <div id="researchTopicContainer">
                     <h3 id="researchTopicComponentMain"><a href="/research-3d-1" id="researchTopicATag">CarePrints</a></h3>
                     <h3 id="researchTopicComponentMain"><a href="/research-3d-2" id="researchTopicATag">Virtual Reality</a></h3> 

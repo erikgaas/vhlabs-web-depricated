@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class VirtualReality extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <h2><a href="/research" className="researchSubPageBreadcrumb"> Research</a> > <a href="/research-3d" className="researchSubPageBreadcrumb">3D Modeling</a></h2>
                 <div className="subpageContainer">
                     <h5 className="subpageTitle">Virtual Reality</h5>

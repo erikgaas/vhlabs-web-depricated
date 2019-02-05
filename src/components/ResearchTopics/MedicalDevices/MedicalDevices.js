@@ -4,7 +4,7 @@ import '../../../styles/ResearchTopics.css';
 class MedicalDevices extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <h2><a href="/research" className="researchSubPageBreadcrumb">Research</a> > <a href="/research-md" className="researchSubPageBreadcrumb">Medical Devices</a></h2>
                 <div id="researchTopicContainer">
                     <h3 id="researchTopicComponentMain"><a href="/research-md-1" id="researchTopicATag">Cardiac Devices, Testing, and Design</a></h3>

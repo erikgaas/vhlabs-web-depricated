@@ -4,7 +4,7 @@ import '../../../styles/ResearchSubpages.css';
 class AnestheticComplications extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <h2><a href="/research" className="researchSubPageBreadcrumb"> Research</a> > <a href="/research-sm" className="researchSubPageBreadcrumb">Skeletal Muscle</a></h2>
                 <div className="subpageContainer">
                     <h5 className="subpageTitle">Anesthetic complications in muscular disorders</h5>

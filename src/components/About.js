@@ -38,7 +38,7 @@ class About extends Component {
 
 
 		return (
-			<div>
+			<div className='container'>
 				<h1>Our Lab</h1>
 				<p id="aboutParagraph">Dr. Paul A. Iaizzo has been at the University of Minnesota since 1990,
 				performing research and teaching graduate and

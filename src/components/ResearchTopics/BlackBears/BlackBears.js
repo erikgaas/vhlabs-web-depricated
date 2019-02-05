@@ -5,7 +5,7 @@ import Cardiac from '../Cardiac/Cardiac';
 class BlackBears extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <h2><a href="/research" className="researchSubPageBreadcrumb">Research</a> > <a href="/research-bb" className="researchSubPageBreadcrumb">Black Bears</a></h2>
                 <div id="researchTopicContainer">
                     <h3 id="researchTopicComponentMain"><a href="/research-bb-1" id="researchTopicATag">Stimulated Muscle Force Assessment during Hibernation</a></h3>

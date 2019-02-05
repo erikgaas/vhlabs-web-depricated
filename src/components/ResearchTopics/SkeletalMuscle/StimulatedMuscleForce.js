@@ -4,7 +4,7 @@ import '../../../styles/ResearchSubpages.css';
 class StimulatedMuscleForce extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <h2><a href="/research" className="researchSubPageBreadcrumb"> Research</a> > <a href="/research-sm" className="researchSubPageBreadcrumb">Skeletal Muscle</a></h2>
                 <div className="subpageContainer">
                     <h5 className="subpageTitle">Stimulated Muscle Force Measurements in Neuromuscular Diseases</h5>
