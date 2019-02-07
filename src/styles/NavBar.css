@@ -14,7 +14,7 @@ a:hover {
 
 /* Specific CSS */
 #navbarDropdownMenuLink{
-	color: #7a0019
+	color: #7a0019;
 }
 
 .dropdown-menu > .dropdown-item {
@@ -24,6 +24,10 @@ a:hover {
 
 .dropdown-menu > .dropdown-item:hover {
 	background-color: #ffdf32
+}
+
+#navListItem {
+	padding-top: 0px
 }
 
 
@@ -41,7 +45,7 @@ a:hover {
 
 
 #navbarNavDropdown {
-	padding-left: 80px
+	padding-left: 80px;
 }
 
 .navbar-nav {
@@ -55,4 +59,18 @@ a:hover {
 
 #surgeryTitle {
 	font-size: 16px
+}
+
+/* ===========================MEDIA QUERIES-iPad & Phones=============================================== */
+@media only screen and (max-width: 1030px) {
+	.navbar-nav {
+		position: absolute;
+		background-color:gold;
+		z-index: 1;
+		box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+		text-align: left;
+		margin-left: 450px;
+		padding-left: 10px;
+		padding-right: 10px
+	}
 }
