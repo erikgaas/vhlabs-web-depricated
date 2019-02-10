@@ -14,7 +14,7 @@ a:hover {
 
 /* Specific CSS */
 #navbarDropdownMenuLink{
-	color: #7a0019;
+	color: maroon;
 }
 
 .dropdown-menu > .dropdown-item {
@@ -28,6 +28,10 @@ a:hover {
 
 #navListItem {
 	padding-top: 0px
+}
+
+#navbarDropdownMenuLink {
+	text-decoration: none
 }
 
 

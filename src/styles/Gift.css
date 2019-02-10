@@ -4,7 +4,7 @@
 
 .giftText {
     font-size: 25px;
-    color: #46000E
+    color: black
 }
 
 .mailGift, .phoneGift {
@@ -33,6 +33,7 @@
     .container {
        margin-left: 50px
     }
+    
 }
 
 @media only screen and (max-width: 668px) {

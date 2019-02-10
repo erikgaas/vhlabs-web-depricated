@@ -39,12 +39,12 @@ class Media extends Component {
 							<h5><strong>{mediaItem.title}</strong></h5>
 							<p>{mediaItem.description}</p>
 							<a className='goTo' target="_blank" href={mediaItem.goToLink}>Go to...</a>
-						</div>
 						<div className='col-md-1'></div>
 						<div className='col-md-2'>
 							<ImageComponent img={mediaItem.img}></ImageComponent>
 						</div>
 						</div>
+					</div>
 					</div>
 		})
 		return (
