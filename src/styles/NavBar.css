@@ -59,7 +59,55 @@ a:hover {
 	font-size: 16px
 }
 
-/* ===========================MEDIA QUERIES-iPad & Phones=============================================== */
+/* ===========================MEDIA QUERIES=============================================== */
+@media only screen and (max-width: 1700px) {
+	.navbar-nav {
+		padding-left: 380px
+	}
+}
+
+@media only screen and (max-width: 1440px) {
+	.navbar-nav {
+		padding-left: 10%
+	}
+}
+
+@media only screen and (max-width: 1315px) {
+	.navbar-nav {
+		padding-left: 10%
+	}
+	#pageTitle {
+		font-size: 20px
+	}
+	#surgeryTitle {
+		font-size: 14px
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	.navbar-nav {
+		padding-left: 5%
+	}
+	#pageTitle {
+		font-size: 20px
+	}
+	#surgeryTitle {
+		font-size: 14px
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.navbar-nav {
+		padding-left: 4%
+	}
+	#pageTitle {
+		font-size: 20px
+	}
+	#surgeryTitle {
+		font-size: 14px
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	.navbar-nav {
 		position: fixed;
