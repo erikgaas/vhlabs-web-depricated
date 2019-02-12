@@ -14,11 +14,7 @@ class NavBar extends Component {
 					<div className="collapse navbar-collapse" id="navbarNavDropdown">
 						
 						<ul className="navbar-nav" id="hamburgerMenuFix">
-						<li className="nav-item" id="navListItem">
-								<a className="nav-link" href="/gift" id="navbarDropdownMenuLink" role="button">
-									Give
-        						</a>
-							</li>
+						
 							<li className="nav-item dropdown" id="navListItem">
 								<a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									People
@@ -43,11 +39,6 @@ class NavBar extends Component {
 								</div>
 							</li>
 							<li className="nav-item" id="navListItem">
-								<a className="nav-link" href="/news" id="navbarDropdownMenuLink" role="button">
-									Lab News
-        						</a>
-							</li>
-							<li className="nav-item" id="navListItem">
 								<a className="nav-link" href="/publications" id="navbarDropdownMenuLink" role="button">
 									Publications
         						</a>
@@ -58,8 +49,18 @@ class NavBar extends Component {
         						</a>
 							</li>
 							<li className="nav-item" id="navListItem">
+								<a className="nav-link" href="/news" id="navbarDropdownMenuLink" role="button">
+									Lab News
+        						</a>
+							</li>
+							<li className="nav-item" id="navListItem">
 								<a className="nav-link" href="/media" id="navbarDropdownMenuLink" role="button">
 									Media
+        						</a>
+							</li>
+							<li className="nav-item" id="navListItem">
+								<a className="nav-link" href="/gift" id="navbarDropdownMenuLink" role="button">
+									Give
         						</a>
 							</li>	
 							<li className="nav-item dropdown" id="navListItem">
