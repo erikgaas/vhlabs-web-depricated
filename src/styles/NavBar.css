@@ -44,14 +44,14 @@ a:hover {
 }
 
 
-#navbarNavDropdown {
+/* #navbarNavDropdown {
 	padding-left: 80px;
-}
+}*/
 
 .navbar-nav {
-	padding-left: 100px;
-	text-align: right;
-}
+	padding-left: 10px;
+	/* text-align: right; */
+} 
 
 #pageTitle {
 	font-size: 26px
@@ -62,14 +62,14 @@ a:hover {
 }
 
 /* ===========================MEDIA QUERIES-iPad & Phones=============================================== */
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 768px) {
 	.navbar-nav {
-		position: absolute;
+		position: fixed;
 		background-color:gold;
-		z-index: 1;
+		z-index: 3;
 		box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 		text-align: left;
-		margin-left: 450px;
+		margin-left: 570px;
 		padding-left: 10px;
 		padding-right: 10px
 	}
