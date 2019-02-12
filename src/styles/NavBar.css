@@ -72,6 +72,31 @@ a:hover {
 	}
 }
 
+@media only screen and (max-width: 1420px) {
+	.navbar-nav {
+		padding-left: 10%
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.navbar-nav {
+		padding-left: 10%
+	}
+}
+
+
+@media only screen and (max-width: 1380px) {
+	.navbar-nav {
+		padding-left: 15%
+	}
+}
+
+@media only screen and (max-width: 1370px) {
+	.navbar-nav {
+		padding-left: 10%
+	}
+}
+
 @media only screen and (max-width: 1315px) {
 	.navbar-nav {
 		padding-left: 15%
