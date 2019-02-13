@@ -82,7 +82,7 @@ class App extends Component {
 
 
           <Route path="/about" component={About} />
-          <Route path="/directions" component={Directions} />
+          <Route path="/contact" component={Directions} />
           <Route path="/collaborators" component={Collaborators} />
           <Route path="/gift" component={Gift} />
           <Route path="/affiliations" component={Affiliations} />
@@ -90,8 +90,6 @@ class App extends Component {
           <Route path="/media" component={Media} />
 
           <Route path="/publications" component={Publications} />
-
-          <Route path="/contact" component={Contact} />
 
 
 
