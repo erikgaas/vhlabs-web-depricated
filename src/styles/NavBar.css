@@ -60,13 +60,55 @@ a:hover {
 }
 
 /* ===========================MEDIA QUERIES=============================================== */
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1700px) {
+	.navbar-nav {
+		padding-left: 300px
+	}
+}
+
+@media only screen and (max-width: 1540px) {
 	.navbar-nav {
 		padding-left: 150px
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1399px) {
+	.navbar-nav {
+		padding-left: 60px
+	}
+}
+
+@media only screen and (max-width: 1304px) {
+	.navbar-nav {
+		padding-left: 20px
+	}
+}
+
+@media only screen and (max-width: 1264px) {
+	.navbar-nav {
+		padding-left: 0px;
+		margin: 0px;
+	}
+	#pageTitle {
+		font-size: 20px
+	}
+
+}
+
+@media only screen and (max-width: 1024px) {
+	.navbar-nav {
+		position: fixed;
+		background-color:gold;
+		z-index: 3;
+		box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+		text-align: left;
+		margin-left: 830px;
+		padding-left: 10px;
+		padding-right: 10px
+	}
+}
+
+@media only screen and (max-width: 900px) {
 	.navbar-nav {
 		position: fixed;
 		background-color:gold;
