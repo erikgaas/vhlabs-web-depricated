@@ -5,16 +5,17 @@ import '../styles/NavBar.css';
 class NavBar extends Component {
 	render() {
 		return (
-			<div className='NavBar'> 
+			
+			<div className='NavBar'>
 				<nav className="navbar navbar-expand-xl navbar-light">
 				<span><a id="pageTitle" className="navbar-brand" href="/">Visible Heart<sup>®</sup> Laboratories</a> | <a id="surgeryTitle" className="navbar-brand" href="https://www.surgery.umn.edu/">Department of Surgery</a></span>
 					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 						<span className="navbar-toggler-icon"></span>
 					</button>
+					
 					<div className="collapse navbar-collapse" id="navbarNavDropdown">
 						
 						<ul className="navbar-nav" id="hamburgerMenuFix">
-						
 							<li className="nav-item dropdown" id="navListItem">
 								<a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									People
@@ -69,7 +70,7 @@ class NavBar extends Component {
         						</a>
 							</li>
 						</ul>
-					</div>
+						</div>
 				</nav>
 			</div>
 		);
