@@ -60,76 +60,9 @@ a:hover {
 }
 
 /* ===========================MEDIA QUERIES=============================================== */
-@media only screen and (max-width: 1700px) {
-	.navbar-nav {
-		padding-left: 380px
-	}
-}
-
 @media only screen and (max-width: 1440px) {
 	.navbar-nav {
-		padding-left: 20%
-	}
-}
-
-@media only screen and (max-width: 1420px) {
-	.navbar-nav {
-		padding-left: 10%
-	}
-}
-
-@media only screen and (max-width: 1400px) {
-	.navbar-nav {
-		padding-left: 10%
-	}
-}
-
-
-@media only screen and (max-width: 1380px) {
-	.navbar-nav {
-		padding-left: 15%
-	}
-}
-
-@media only screen and (max-width: 1370px) {
-	.navbar-nav {
-		padding-left: 10%
-	}
-}
-
-@media only screen and (max-width: 1315px) {
-	.navbar-nav {
-		padding-left: 15%
-	}
-	#pageTitle {
-		font-size: 20px
-	}
-	#surgeryTitle {
-		font-size: 14px
-	}
-}
-
-@media only screen and (max-width: 1280px) {
-	.navbar-nav {
-		padding-left: 5%
-	}
-	#pageTitle {
-		font-size: 20px
-	}
-	#surgeryTitle {
-		font-size: 14px
-	}
-}
-
-@media only screen and (max-width: 1200px) {
-	.navbar-nav {
-		padding-left: 4%
-	}
-	#pageTitle {
-		font-size: 20px
-	}
-	#surgeryTitle {
-		font-size: 14px
+		padding-left: 150px
 	}
 }
 
