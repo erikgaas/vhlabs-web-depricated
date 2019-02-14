@@ -17,7 +17,7 @@ class NavBar extends Component {
 						
 						<ul className="navbar-nav" id="hamburgerMenuFix">
 							<li className="nav-item dropdown" id="navListItem">
-								<a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
 									People
         						</a>
 								<div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -27,7 +27,7 @@ class NavBar extends Component {
 								</div>
 							</li>
 							<li className="nav-item dropdown" id="navListItem">
-								<a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
 									Research
         						</a>
 								<div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
