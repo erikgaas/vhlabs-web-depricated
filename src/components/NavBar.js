@@ -65,8 +65,8 @@ class NavBar extends Component {
         						</a>
 							</li>	
 							<li className="nav-item dropdown" id="navListItem">
-								<a className="nav-link" id="navbarDropdownMenuLink" href="/directions" role="button">
-									Contact & Directions
+								<a className="nav-link" id="navbarDropdownMenuLink" href="/contact" role="button">
+									Contact
         						</a>
 							</li>
 						</ul>
