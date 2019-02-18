@@ -60,6 +60,13 @@ a:hover {
 }
 
 /* ===========================MEDIA QUERIES=============================================== */
+@media only screen and (max-width: 3000px) {
+	.navbar-nav {
+		padding-left: 500px
+	}
+}
+
+
 @media only screen and (max-width: 1700px) {
 	.navbar-nav {
 		padding-left: 300px
