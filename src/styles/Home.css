@@ -61,6 +61,12 @@
 }
 
 /* =========================Media Queries========================= */
+@media only screen and (max-width: 1300px) {
+
+    #cardBodyFix {
+        display: none
+    }
+}
 
 /* iPad Stylings */
 @media only screen and (max-width: 1030px) {
@@ -107,10 +113,11 @@
         font-size: 15px;
         opacity: .8;
     }
+    
 }
 
 /* Phone Stylings */
-@media only screen and (max-width: 668px) {
+@media only screen and (max-width: 770px) {
     #twitterDiv {
         display: none
     }
@@ -120,7 +127,8 @@
     }
 
     #row2 {
-        padding-left: 50px
+        padding-left: 0px;
+        margin-top: 200px;
     }
 
     .col-md-1 {
@@ -129,7 +137,8 @@
 
     .CarouselContainer {
         margin-top: 0px;
-        padding-top: 0px
+        padding-top: 0px;
+        
     }
 
     #lastElementCard {
@@ -144,3 +153,65 @@
     }
 }
 
+
+/* @media only screen and (max-width: 680px) { */
+
+@media only screen and (max-width: 680px) {
+    #twitterDiv {
+        display: none
+    }
+
+    #row1 {
+        height: 200px;
+    }
+
+    #row2 {
+        padding-left: 50px;
+        margin-top: 150px;
+    }
+
+    .col-md-1 {
+        display: none;
+    }
+
+    .CarouselContainer {
+        margin-top: 0px;
+        padding-top: 0px;
+        
+    }
+
+    #lastElementCard {
+        width: 130px;
+        height: 200px;
+        margin-left: 80px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        text-align: center;
+        border: none
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    #row2 {
+        padding-left: 50px;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #lastElementCard {
+        width: 130px;
+        height: 200px;
+        padding-left: 0px;
+        margin-left: 0px;
+        padding-top: 10px;
+        text-align: center;
+        border: none
+    }
+    #row2 {
+        padding-left: 50px;
+        margin-top: 0px;
+    }
+}
