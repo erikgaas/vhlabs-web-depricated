@@ -1,6 +1,12 @@
 {
     "news": [
         {
+            "description": "Mike learns Github!",
+             "date": "2019-03-13",
+             "img": "",
+             "more": ""
+         },
+         {
            "description": "Lars Mattison presented a research poster at the 1st World Congress of Electroporation in Slovenia (September 6-10, 2015).",
             "date": "2015-09-01",
             "img": "",
