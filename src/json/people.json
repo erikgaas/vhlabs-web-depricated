@@ -180,8 +180,8 @@
             "img_name": "MikayleHolm.jpg"
         },
         {
-            "name": "Lars Mattison, PhD",
-            "credentials": "",
+            "name": "Lars Mattison",
+            "credentials": "PhD",
             "position": "Biomedical Engineering",
             "email": "matti137@umn.edu",
             "phone": "612-624-8742",
@@ -285,7 +285,7 @@
             "email": "valen382@umn.edu",
             "phone": "",
             "designations": [
-                "Masters"
+                "Doctoral"
             ],
             "img_name": "TommyValenzuela.jpg"
         },
