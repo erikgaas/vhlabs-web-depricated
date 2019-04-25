@@ -7,4 +7,6 @@
 4. Drag vhlabs-web folder into VSCode
 5. Install [NPM](https://www.npmjs.com/)
 
-# 
+
+# Steps taken to change stuff
+1. Click the circly button in the bottom left to refresh the website code
